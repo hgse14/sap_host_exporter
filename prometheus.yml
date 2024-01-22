@@ -1,0 +1,79 @@
+# my global config
+global:
+  scrape_interval: 150s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 150s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  scrape_timeout: 150s #is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          # - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+   - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: "prometheus_aceroschilca"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["localhost:9090"]
+      
+  - job_name: "windows_exporter_aceroschilca"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["acchsrouter:9182"]
+      - targets: ["salesforce:9182"]
+      
+  - job_name: "linux_exporter_aceroschilca"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["128.0.5.5:9100"]
+      - targets: ["acerosqasecc:9100"]
+      - targets: ["acerosprdecc:9100"]
+      
+  - job_name: "sap_exporter_aceroschilca"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["acerosdevecc:9680"]
+      - targets: ["acerosqasecc:9680"]
+      - targets: ["acerosprdecc:9680"]
+      
+  - job_name: "process_exporter_aceroschilca"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["acerosdevecc:9256"]
+      - targets: ["acerosqasecc:9256"]
+      - targets: ["acerosprdecc:9256"]
+      
+  - job_name: "hanadb_exporter"
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["acerosdevecc:9668"]
+      - targets: ["acerosqasecc:9668"]
+      - targets: ["acerosprdecc:9668"]
+
