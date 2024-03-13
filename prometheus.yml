@@ -76,4 +76,12 @@ scrape_configs:
       - targets: ["acerosdevecc:9668"]
       - targets: ["acerosqasecc:9668"]
       - targets: ["acerosprdecc:9668"]
+  - job_name: "sybase_exporter"
 
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ["acerosdevecc:9399"]
+      - targets: ["acerosqasecc:9399"]
+      - targets: ["acerosprdecc:9399"]
