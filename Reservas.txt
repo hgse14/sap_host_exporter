@@ -1,0 +1,662 @@
+Cliente	Instancia	Servidor	IDServer	VersionSO	ServicePack	IPServer	TipodeInstancia	ResevaID	TipoReserva	FechaInicioResrva	FechaFinReserva	FIN
+ACEROSCHILCA	EC2	acchsrouter	a628d063-f9fa-4ebe-bc49-840622c588db	Windows	WindowsServer2019-datacenter-gensecond	128.0.5.68	Standard_B2ms	6213adcc-7ac5-4af0-9552-0aa4491de60a	-	7/10/2022	7/10/2025	1759795200
+ACEROSCHILCA	EC2	accsalesforce	dd1b50be-9e67-416c-87b0-33393a116eda	Windows	WindowsServer2012-R2-Datacenter	128.0.5.70	Standard_B4ms	99bc65a5-6647-4af2-8da0-f6e931f4a3b0	-	7/10/2022	7/10/2025	1759795200
+ACEROSCHILCA	EC2	s4hanadev	81ed703c-9bc4-46d9-88f0-92c05001d4d0	Linux	sles-15-sp3-basicgen2	128.0.5.5	Standard_E16s_v5	1fc07050-36c4-445a-9820-8da4d17b0ad5	-	7/10/2022	7/10/2025	1759795200
+ACEROSCHILCA	EC2	s4hanaqas	e2e2f279-b725-4387-9047-d9159ce40b5f	Linux	sles-15-sp3-basicgen2	128.0.5.36	Standard_E16s_v5	1fc07050-36c4-445a-9820-8da4d17b0ad5	-	7/10/2022	7/10/2025	1759795200
+ACEROSCHILCA	EC2	s4hanaprd	f8655206-a4ad-4d4c-8e73-8b76a7948a9f	Linux	sles-15-sp3-basicgen2	128.0.5.37	Standard_E32s_v5	e6fb907d-7194-409f-a385-ae2e6253a341	-	7/10/2022	7/10/2025	1759795200
+ACEROSCHILCA	EC2	srvsolman	7b69bd18-89d3-4f8b-9782-de81c36c4d84	Linux	sles-15-sp3-basicgen2	128.0.5.4	Standard_E4s_v5		Ademanda			-2209161600
+AGP	EC2	BPCPRDAPP	i-01140e47306ad78e5	Linux	SLES15.5	192.168.200.185	m6i.4xlarge	233f07fd-029e-47fc-880d-4a9d8754d778	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	WebDispatcherPRD	i-0ca1cf706564cf41f	Linux	SLES15.5	192.168.200.34	m6i.large	ae855829-1869-4059-aa47-f10fe94d7da4	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	BPCPRDBD	i-08ffd15bcc7c1e1ca	Linux	SLES15.5	192.168.200.154	r6i.16xlarge	37d40ccd-1bed-44ca-97aa-77e8dd52eb1b	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	BPC-DEV	i-079ae1f1e84ce15f1	Linux	SLES15.5	192.168.200.149	r6i.8xlarge	a46f4abb-dec2-469b-abc7-83d86493fa9a	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	BPC-QAS	i-0011d7cb3f62c0169	Linux	SLES15.5	192.168.200.190	r6i.8xlarge	e73b548c-3b43-4925-825a-99b81690fae7	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	WebDispatcherDEV	i-06e6e6e13a7038083	Linux	SLES15.5	192.168.200.17	t3a.large	cf065361-d0fa-4cdf-baac-e6349e4ac617	NoUpfront	16/11/2023	15/11/2026	1794700800
+AGP	EC2	nat-instance	i-062a33680b6679b8c	Linux	AmazonLinuxAMI2018.03	192.168.200.30	t3a.micro		Ademanda			-2209161600
+AGP	EC2	SAPROUTER	i-0b633331992599625	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	192.168.200.9	t3a.large	b2174ee1-7db8-4124-9c3f-4fda1361cdd6	NoUpfront	16/11/2023	15/11/2026	1794700800
+Agrolatam	EC2	NoAplica(Sinservidores)							-			-2209161600
+BancoRipley	RDS	dwhoperacionesti.database.windows.net	18aae7cb-37f5-4950-a82b-4bc16fdcae74	AzureSQLDatabase			GeneralPurpose:Gen4,1vCore		Ademanda			-2209161600
+BASF	EC2	APAC-SQL	i-064e4e939bf7ebf43	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.2.52	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	APAC-APP1	i-08cbcceedb7b4a6eb	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.1.237	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	APAC-APP3	i-0a29427f11a3515fc	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.1.210	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	APAC-DWServer	i-0d0ebafaf7efe8563	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.2.127	r5.large		Ademanda			-2209161600
+BASF	EC2	APAC-DPA	i-08f2c92cf6e61982d	windows		172.31.1.143	r5.large		Ademanda			-2209161600
+BASF	EC2	Hana-Archive-v2	i-05b1ba04b82c3f50f	Linux		10.0.10.202	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	BASFRDP	i-0dc22ea9752421092	windows		172.31.4.126	c4.xlarge		Ademanda			-2209161600
+BASF	EC2	ORA-SQL	i-0a98346e5f564d381	windows		172.31.2.206	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	ORA-APP	i-0228b56a392af8d8f	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.15.156	r5.4xlarge		Ademanda			-2209161600
+BASF	EC2	ORA-DW	i-03c75fe8de35b35af	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.3.38	r5.large		Ademanda			-2209161600
+BASF	EC2	ORA-DPA	i-0b140a026c3a72d5a	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.31.10.198	r5.large		Ademanda			-2209161600
+BASF	EC2	Archive-APP-Server	i-0c31fd2549cce73ad	windows		10.0.0.222	r5.xlarge		Ademanda			-2209161600
+BASF	EC2	ECUADOR	i-01750efabb335b5d4	windows		172.31.35.22	m5.2xlarge		Ademanda			-2209161600
+BASF	EC2	COLOMBIA	i-0f0c9ff4b0e6295d8	windows		172.31.45.122	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	LATAM	i-0d95123a617c7c220	windows		172.31.34.203	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	CHILE	i-0ccc47bed608d8015	windows		172.31.32.192	r5.2xlarge		Ademanda			-2209161600
+BASF	EC2	BD-SQL	i-0725c721e7da59a90	windows		172.31.38.209	r5.4xlarge		Ademanda			-2209161600
+BASF	EC2	BRAZIL	i-0888ea55c7c627838	windows		172.31.41.243	r5.4xlarge		Ademanda			-2209161600
+BASF	EC2	LATAM-DPA	i-074e786e68328270b	windows		172.31.36.247	r5.large		Ademanda			-2209161600
+BASF	EC2	DEV-DB	i-0e5f2339476f3c869	windows		172.31.53.199	r5.xlarge		Ademanda			-2209161600
+BASF	EC2	Brazil-DEV	i-0bda6ad7664bb47bc	windows		172.31.53.146	r5.xlarge		Ademanda			-2209161600
+BASF	EC2	LATAM-DW	i-0f0bb1005c2620933	windows		172.31.38.41	r5.xlarge		Ademanda			-2209161600
+BASF	EC2	BASTION	i-04325a6e83dfb27bd	windows		172.31.42.81	t3a.xlarge		Ademanda			-2209161600
+BNET	EC2	windowsjumserver	ÿ	Windows	WindowsServer2019Datacenter	10.57.65.22	r5.large		Ademanda			-2209161600
+BNET	EC2	megrcpappel	ÿ	Linux	SLES12.5	10.57.65.209	m5.2xlarge		Ademanda			-2209161600
+BNET	EC2	PRODHANADB	ÿ	Linux	SLES12.5	10.57.67.229	r5.24xlarge		Ademanda			-2209161600
+BNET	EC2	S4HANAAPP	ÿ	Linux	SLES12.5	10.57.65.184	m5.4xlarge		Ademanda			-2209161600
+BNET	EC2	Bastion-Windows	ÿ	Windows	WindowsServer2019Datacenter	10.57.77.206	T3.large		Ademanda			-2209161600
+BNET	EC2	WindowsJumpServer	ÿ	Windows	WindowsServer2019Datacenter	10.57.81.235	r5.large		Ademanda			-2209161600
+BNET	EC2	mepopappel	ÿ	Linux	SLES12.5	10.57.65.211	r5.2xlarge		Ademanda			-2209161600
+BNET	EC2	SolmanAPP+DB	ÿ	Linux	SLES12.5	10.57.81.46	m5.2xlarge		Ademanda			-2209161600
+BNET	EC2	SAPSCC	ÿ	Linux	SLES12.5	10.57.81.11	m5.xlarge		Ademanda			-2209161600
+BNET	EC2	S/4HANAQASDB	ÿ	Linux	SLES12.5	10.57.81.79	r5.8xlarge		Ademanda			-2209161600
+BNET	EC2	S/4QASAPP	ÿ	Linux	SLES12.5	10.57.81.142	r5.xlarge		Ademanda			-2209161600
+BNET	EC2	S/4DEVHANADB	ÿ	Linux	SLES12.5	10.57.81.139	r5.8xlarge		Ademanda			-2209161600
+BNET	EC2	S/4DEVAPP	ÿ	Linux	SLES12.5	10.57.81.172	r5.xlarge		Ademanda			-2209161600
+BNET	EC2	mepodappel	ÿ	Linux	SLES12.5	10.57.81.242	m5.2xlarge		Ademanda			-2209161600
+BNET	EC2	Bastion-Monitoring-DEV	ÿ	Windows	WindowsServer2019Datacenter	10.57.93.214	T3.large		Ademanda			-2209161600
+BNET	EC2	megrcdapel	ÿ	Linux	SLES12.5	10.57.81.47	m5.2xlarge		Ademanda			-2209161600
+CAASA	EC2	barcino-bd-producci¢n-tbahanbd	i-0305e27582b6efd8b	Linux	SLES15.1	10.22.2.11	r5.4xlarge	08251d38-59f1-4c94-ae5f-4121228aa80a	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAASA	EC2	barcino-b1hana-producci¢n-b1hanaserverctg	i-07a6207ac985d5479	Linux	SLES15.1	10.22.3.60	r5.4xlarge	2b972c21-38d8-4bcf-9e4e-8aa09a8bc17f	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAASA	EC2	barcino-appserver-producci¢n-b1sapappserver	i-05b7834a60f5036bc	Linux	SLES15.1	10.22.2.182	r5.xlarge	6fa13f81-0d57-4c3d-bb1e-7d7adb83c224	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAASA	EC2	barcino-vpn-producci¢n-vpnserver	i-0883e6f7d50eb8f83	Linux	Ubuntu18.04	10.22.1.223	t3a.medium	cfb57e85-82bf-4e5c-bdba-46de54c16322	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAASA	EC2	barcino-nat-desarrollo-nat	i-02143260a41dade97	Linux	AmazonLinuxAMI2018.03	10.22.0.110	t3a.micro	5a818379-b7b7-412a-bdd9-2770ca32c026	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAASA	EC2	barcino-rdp-producci¢n-rdpserverv2	i-0561a1ee78da4bfc7	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.22.2.136	r5.4xlarge	9af303f9-b4ce-4136-b5ef-a18796d39120	PartialUpfront	27/10/2021	26/10/2024	1729900800
+CAJAHUANCAYO	EC2	ri-lms-huancayo	c1c3b937-cddf-4686-bb08-fcdee1a2a56b	Linux		192.168.1.199	s6.xlarge.4	01154-146312888-0	-	8/08/2023	7/08/2024	1722988800
+CAJASULLANA	EC2	CajaSullana-moodle-prd	ÿ	Linux	CentOS8.2	ÿ10.10.4.5	m6.xlarge.8	ri-2yr-moodle-prd01154-160934436-0	-	1/03/2024	28/02/2025	1740700800
+CARAVELI	EC2	NoAplica(Sinservidores)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+CENTURYLINK	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+CEYESA	EC2	AppServer	i-05bf6ef95172c591b	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.4.112	t3a.xlarge	d186b426-82b3-472b-8001-b6f00466eb6d	NoUpfront	4/10/2022	3/10/2025	1759449600
+CHAIDEYCHAIDE(EC)	EC2	NoAplica(Sinaccesos)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-s4-qas-srvs4qas	i-02317e500fa12425b	Linux	SLES12.5	172.30.255.20	r5.16xlarge		NoRenovado			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-s4-prd-srvs4prd-(prds4hana)-newv2	i-08bb6605ea50179fc	Linux	SLES12.5	172.30.255.25	r5.24xlarge		Ademanda			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-s4-dev-srvs4dev-(devs4hana)	i-01ea58aa1fd0d6ef4	Linux	SLES12.5	172.30.254.42	r5.4xlarge		Ademanda			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-po-dev-srvpodev	i-09ce9a04ed2af0b13	Linux	SLES12.5	172.30.255.29	r5.large		Ademanda			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-po-prd-prdpo	i-02d038cb970f98fac	Linux	SLES12.5	172.30.254.24	r5.xlarge		NoRenovado			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-nat-prd-nat	i-02268ea818a77b3a8	Linux	AmazonLinuxAMI2018.03	172.30.255.8	t3a.micro		NoRenovado			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-fiori-prd-prdfiori-new	i-0d4676dd11b92e0d8	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.30.255.5	r5.large	ed653039-51d5-4cf8-a26f-64d457cd98b4	PartialUpfront	21/06/2023	20/06/2024	1718841600
+ClinicaSanPablo	EC2	clinicasanpablo-solman-prd-solman	i-074dd35ae05bd8e5a	windows		172.30.254.20	r5.xlarge		Ademanda			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-fiori-dev-devfiori(devfiori)	i-076f84f27712ef179	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.30.254.9	t3.large		Ademanda			-2209161600
+ClinicaSanPablo	EC2	clinicasanpablo-router-dev-saprouter	i-04fafdbacbd7cc14e	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.30.254.14	t3.large		Ademanda			-2209161600
+CMHORIZONTE	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+COFAR(BOLIVIA)(D)	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+COGA	EC2	cogprerhfweb301	i-0e54bc6154be839b6	Linux		172.30.111.147	m6i.large	13933e14-3ec1-4e0f-9418-b3e2ae77a3c7	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogprerhfmet301	i-05b90b59a5611dfdb	Linux		172.30.111.189	m6i.large	1debc6ea-8030-4eb7-8bb4-09d8cebf395d	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogdevrhfmet301	i-0cf6fd43c26928a78	Linux		172.30.111.29	m6i.large	75b67b53-ce31-4032-9ab5-a1779b3d4abc	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogdevrhfweb301	i-032cdac32401700b5	Linux		172.30.111.30	m6i.large	b5a7a6f8-a7f9-4b62-854e-04a81d9f139b	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	prdpo-(SAPPRDPO)	i-0f838bc3cb9170c5a	Linux	RedHatEnterpriseLinuxServer7.9	172.30.111.21	r5.2xlarge	3f4d5234-0d41-4916-af70-81a5fedd8ea5	PartialUpfront	2/02/2022	1/02/2025	1738368000
+COGA	EC2	devpo-(SAPDEVPO)	i-03ef4f1c87a5b9237	Linux	RedHatEnterpriseLinuxServer7.9	172.30.111.27	r5.large	1eda3fdf-d227-4910-b3e3-56ac577ae255	PartialUpfront	2/02/2022	1/02/2025	1738368000
+COGA	EC2	qaspo-(SAPQASPO)	i-049e0d7c87d75c8b1	Linux	RedHatEnterpriseLinuxServer7.9	172.30.111.22	r5.xlarge	a8cc2f4f-a59e-4312-8e67-6bc3f4cba261	PartialUpfront	2/02/2022	1/02/2025	1738368000
+COGA	EC2	MSPRDAPP	i-021480c3d8961d1e4	Linux		172.30.111.240	r6i.2xlarge	da75d9d9-d98a-435e-8831-e949122ee32b	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogprerhfint301	i-05453832e7d0bf18b	Linux		172.30.111.191	r6i.large	0e96b438-f8b3-45ce-a9ec-93b4b18f3ced	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogprorhfweb301	i-0a17e4d74b074234a	Linux		172.30.111.164	r6i.large	44bfb0b7-905b-41a3-a3b4-e348964753b5	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	cogprorhfmet301	i-08e46483cbd5b963d	Linux		172.30.111.201	r6i.large	b5b4c174-913f-42cd-9d87-77f852946253	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	MSDEVAPP	i-036ece4713c9eeeac	Linux		172.30.111.28	r6i.large	e31144d8-69f8-4130-88ef-80ce7e9d5c11	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	AWSElasticDisasterRecoveryReplicationServer	i-045adc72f889445e1	Linux		172.30.111.23	t3.small		Ademanda			-2209161600
+COGA	EC2	nat-instance	i-0e28bab05ae9eebd4	Linux		172.30.111.6	t3a.micro		Ademanda			-2209161600
+COGA	EC2	TLURSAP01CTG-(SAPERPPRDCTG)-TLURSAP01	i-0265bfd6f249b59c9	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.30.111.25	r5.large	e7e3ca6c-c981-44bc-b6b6-68c57bbd9fae	NoUpfront	2/02/2022	1/02/2025	1738368000
+COGA	EC2	ERPPRDBD	i-0f4e53e2a0f9f7883	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.162	r6i.2xlarge	c24d11d5-7204-49ed-bc16-46364259f898	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	BWPRDAPP	i-02fb5ef418bd50ad5	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.182	r6i.large	42860420-198e-494b-8e57-66899cf8a6fb	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	ERPPRDAPP	i-04232c08de4cc6bb9	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.213	r6i.large	8f9ce877-abf0-4f05-962b-8a085c195ba5	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	BWPRDBD	i-0884d817a2c414fb7	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.177	r6i.xlarge	2b866caa-43de-43e7-be04-f9c62da839f4	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	SGMDEV	i-09b821fee602b02db	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.228	r6i.xlarge	5adfc3ba-c161-4885-aa39-135f70aa0d0a	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	COGPREW8FSAP	i-0746d990f9d72d308	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.136	r6i.xlarge	b6b618b2-e051-43ac-bbc2-0a4cde53cc8d	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	SGMBWDEV	i-01d6175db614497e4	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.160	r6i.xlarge	d01d4d6a-6da6-4c0a-960e-2597cf4aeb80	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	COGPREW8FBW	i-0d1beb0394e3f0bea	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.111.185	r6i.xlarge	dfa8e7e9-25f1-4692-b691-cd548d7c7997	NoUpfront	18/01/2024	17/01/2025	1737072000
+COGA	EC2	COGASAPROUTER-(SAPROUTER)	i-031f07b9734c2ac7f	windows		172.30.111.7	t3a.large	29fedaee-b5b3-44e9-9b47-c5315404cb3f	NoUpfront	2/02/2022	1/02/2025	1738368000
+CROSLAND	EC2	NoAplica(Sinservidores)							-			-2209161600
+CRP-Radios	EC2	NoAplica(Sinservidores)							-			-2209161600
+CruzDelSur	EC2	cruzdelsur-s4-qas-s4qas	i-08cbbadd046faa3c7	Linux	SLES15.3	10.10.100.236	r5.4xlarge	d27d9d70-5ba0-4f19-9665-f1d670d03ddc	PartialUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-s4-dev-cdss4dev-(s4dev)	i-0f42f0b7766a894fe	Linux	SLES15.3	10.10.100.177	r5.4xlarge	e0a8c690-1d87-42ba-9659-9717fb41e116	PartialUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-s4-prd-s4prd	i-033ce3b18c64563e1	Linux	SLES15.3	10.10.100.253	r5.8xlarge	88ed6bed-ec8b-4045-91f9-478a725c3fc8	PartialUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-po-prd-srvpoprd-(poprd)	i-091815974f0965e5e	Linux	SLES12.5	10.10.100.202	r5.large	c994bb0f-54c0-483e-96f2-038d69555934	PartialUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-po-dev-srvpodev-(podev)	i-00398e9d92b1bfeb8	Linux	SLES12.5	10.10.100.190	r5.large		Ademanda			-2209161600
+CruzDelSur	EC2	cruzdelsur-solman-prd-srvsolman-(solman)	i-090644a9674c23556	Linux		10.10.100.137	r5.xlarge		Ademanda			-2209161600
+CruzDelSur	EC2	cruzdelsur-vpn-prd-vpnserver	i-0aaed8089fbe3eef1	Linux	CentOSLinux7.9.2009	10.10.100.35	t3.large	03436a5e-d44b-490c-bbd3-11c52945d2df	AllUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-nat-dev-natinstance	i-0d195bbffdbff1277	Linux	AmazonLinuxAMI2018.03	10.10.100.34	t3a.micro	c9e37714-9843-4103-a2af-56da4973cdf7	AllUpfront	11/07/2021	10/07/2024	1720569600
+CruzDelSur	EC2	cruzdelsur-router-dev-saprouter	i-0f4438c0f7513cb1a	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.10.100.41	t3a.large	abf748b0-75d3-4c9f-8bae-aebfa88aa08e	PartialUpfront	11/07/2021	10/07/2024	1720569600
+CTGEGH	EC2	swdsr	a0b9fd1d-26b7-429d-b87c-6b12c459b47e	Windows	WindowsServer2016-Datacenter	172.27.10.4	Standard_D2s_v3		Ademanda			-2209161600
+CTGEGH	EC2	vm-dap-dm-eastus2-01	4b643188-76a0-44bc-b47e-a22f5e90034f	Windows	WindowsServer2016-Datacenter	172.27.2.6	Standard_D2s_v3		Ademanda			-2209161600
+CTGEGH	EC2	vm-sacplann-eastus2-01	ee17c3fe-a86a-4741-9b36-284963828507	Windows	WindowsServer2019-datacenter-gensecond	172.27.1.5	Standard_D2s_v3		Ademanda			-2209161600
+CTGEGH	EC2	sapsolman-1	57906d3c-d097-4958-bc77-4417b1f431b6	Linux		172.27.1.4	Standard_E4s_v3		Ademanda			-2209161600
+CTGEGH	EC2	S4HanaProd	8ab69c7f-11af-4817-b573-f27342d8dec4	Linux	sles-sap-15-sp1gen1	172.27.2.4	Standard_M32ls		Ademanda			-2209161600
+CTGEGH	EC2	S4HanaDev	de804aad-b247-4eee-9286-2b95889b84ff	Linux	SLES-SAP15	172.27.2.5	Standard_M32ts		Ademanda			-2209161600
+CUMBRA(RISE)	EC2	NoAplica(ServidorOnPremisse)							-			-2209161600
+Decorcenter	EC2	moodle	8fd5cea2-47bf-40e2-9d13-b96c9931b890	Linux	freebsd-12_212_2-release	140.30.0.4	Standard_B2ms	f3fb3447-9b2f-43b6-85fe-d356c3d2a5a8	-	13/11/2023	13/11/2026	1794528000
+Decorcenter	EC2	visualsrv	580acd2c-7f9d-4612-86bf-8aaaf9efd6eb	Linux	0001-com-ubuntu-server-focal20_04-lts	140.30.0.17	Standard_B2ms	bfa5adf5-e17f-46e1-a62e-1a4f55586c91	-	13/11/2023	13/11/2026	1794528000
+Decorcenter	EC2	SRVAD05-2	98fe11d2-6ee4-425d-9919-e16b43151757	Windows		140.30.0.6	Standard_B2s	adfbeb39-44ec-44b2-85c3-4dd0861de4ff	-	13/11/2023	13/11/2026	1794528000
+Decorcenter	EC2	SRVFACT3	12fa50bc-2e13-416a-9cb2-6fe71d57daa9	Windows		140.30.0.10	Standard_D2_v5	7a8a4a25-daa2-4281-8536-1eed872d941a	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	DCORSRVAPP-AUTOSERVICIOS	bd822c17-7579-4e48-8bc8-dd053de3fbc2	Windows	WindowsServer2019-datacenter-gensecond	140.30.0.22	Standard_D4s_v5	fdd85a93-0181-460a-b612-f7034dfc4e15	-	11/07/2023	11/07/2024	1720656000
+Decorcenter	EC2	SRVDCORBONOS	6fb618fe-c0cb-42a9-976c-b45bb4d63eb7	Windows		140.30.0.11	Standard_D4s_v5	19a27cd7-178b-498b-939f-882c241800ae	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVPOWERBI2	78ee9ebb-27e3-4944-bac2-db181339b4a3	Windows		140.30.0.7	Standard_D4s_v5	f1cb5496-8f52-498c-a3c5-d53c101d640f	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVSAPPRD	872608cf-ca1b-45b4-b2c6-547db80cf12b	Linux	sles-15-sp2-basicgen2	140.30.32.9	Standard_E16ds_v5	a51a6e57-1eab-46cf-9ae3-ee4b5ecfd448	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVBOPRD2	d4fce59a-9a6a-4987-a4cf-7ff2955fd893	Windows		140.30.32.6	Standard_E4ds_v5	b797d849-b1e3-4804-a1fc-23f13a143795	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVDESARR	d609e1b7-6f49-4a69-b59a-18aa75185f6a	Linux	sles-15-sp2-basicgen2	140.30.32.8	Standard_E4ds_v5	3ae91173-34be-47a2-a524-1bafb05941c6	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVEFACTURAS-new	aa393aed-cbd0-42a1-a87e-ec76c6e8eba8	Windows		140.30.0.20	Standard_E4s_v5	6b1e5620-3796-4921-9d0b-f6f024a16ea3	-	13/11/2023	13/11/2026	1794528000
+Decorcenter	EC2	SRVEGESTOR2019	d6f03beb-4202-495f-b611-f12792b94edc	Windows	sql2019-ws2019standard-gen2	140.30.0.8	Standard_E4s_v5	746ef4de-27d2-4707-9c4c-03aa5b2cee1a	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	SRVWEB	3ef89b14-593c-4290-9c6b-b810ae50a85f	Windows		140.30.0.14	Standard_E4s_v5	5c1f5aa5-8f24-465c-a355-1c1e0402bb1c	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	srvbwprd-4	d252533d-87e0-49da-a5fd-64693cc24bf0	Linux		140.30.32.4	Standard_E8ds_v5	74f53856-d732-4175-8f52-30090114558f	-	6/12/2023	6/12/2026	1796515200
+Decorcenter	EC2	dcorsrouter	6f3a8662-34c7-407e-9c17-b2396007cd43	Windows	WindowsServer2019-datacenter-gensecond	140.30.0.5	Standard_F4s_v2	4dd3e2c3-14d6-46ed-9de4-c48edf1ed485	-	13/11/2023	13/11/2026	1794528000
+Decorcenter	EC2	srvreportes2-NEW	c87fa77d-742d-4e24-b3b7-7f1f29821be4	Windows		140.30.0.9	Standard_F8s_v2	8ac56659-f291-4cb3-ac74-e6d28b319d51	-	13/11/2023	13/11/2026	1794528000
+Delosi	EC2	Delosi-moodle-nuevo	i-057a7e09d213e8bb5	Linux		172.40.2.211	r5a.2xlarge	14dd4249-e8a2-49cf-874f-7f93a14cd4de	NoUpfront	6/05/2024	6/05/2025	1746489600
+Delosi	EC2	sandbox-delosi-server	i-0443ef8a48f290633	Linux		172.40.1.180	t3a.medium		Ademanda			-2209161600
+Delosi	RDS		rds-delosi-moodle	mysql	8.0.35	-	db.m5.xlarge	rds-delosi-moodle2	NoUpfront	6/05/2024	6/05/2025	1746489600
+DISAL	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+DRIMER	EC2	drmsroute	92e4023a-318e-46c5-b7f2-fd0ec84c315e	Windows	WindowsServer2016-Datacenter	142.1.0.4	Standard_B2ms	06fb6cf4-5a4a-4b14-8b74-0bc3cc2e1190	-	2/08/2023	2/08/2026	1785628800
+DRIMER	EC2	srvs4dev	10a39008-7167-487a-8841-0edadf2f9db7	Linux	sles-12-sp5-basicgen1	142.1.0.6	Standard_E16ds_v5	efacd0ac-abfa-47a4-b154-6e8d506e569b	-	2/08/2023	2/08/2026	1785628800
+DRIMER	EC2	srvs4qas	6d83cf94-de9d-4ab7-8008-bd4fcca6835e	Linux	sles-12-sp5-basicgen1	142.1.0.9	Standard_E16ds_v5	efacd0ac-abfa-47a4-b154-6e8d506e569b	-	2/08/2023	2/08/2026	1785628800
+DRIMER	EC2	srvs4prd	258471fd-d66c-42e3-9e3f-3125d2b5f251	Linux	sles-12-sp5-basicgen2	142.1.0.10	Standard_E32ds_v5	093c92be-9cf5-4194-ab89-ee4633ded6b0	-	2/08/2023	2/08/2026	1785628800
+DRIMER	EC2	srvsolman	26e88e90-3a61-4295-a4fd-79a5459d695a	Linux	sles-12-sp5-basicgen1	142.1.0.8	Standard_E4ds_v5	73144f35-01c6-403e-a96e-fc629c2aa54e	-	2/08/2023	2/08/2026	1785628800
+DURAGAS(EC)	EC2	NoAplica(Sinaccesos)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+ELORDE¥O(EC)	EC2	NoAplica(Sinaccesos)							-			-2209161600
+Enfoca	EC2	enfoca-nat-desarrollo-NAT	i-040484020e9d9baae	Linux	AmazonLinuxAMI2018.03	10.10.10.15	t3a.small	3769fdf3-4bd0-4045-abd3-df3eec13d4b2	PartialUpfront	10/04/2024	10/04/2025	1744243200
+Enfoca	EC2	enfoca-fileserver-producci¢n-ENFVSRV002(FileServer)	i-099823f11dfc1f80c	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	10.10.10.38	r5.xlarge	7ca26b69-27a3-4164-bbdc-e7a5d93d47f2	PartialUpfront	10/04/2024	10/04/2025	1744243200
+Enfoca	EC2	enfoca-bastion-desarrollo-Bastion	i-09f2bc7bce769ad4b	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.10.10.12	t3a.medium	3495efdd-bb67-405b-a68c-c0721f2eb3aa	PartialUpfront	10/04/2024	10/04/2025	1744243200
+Enfoca	EC2	enfoca-ad-producci¢n-AD	i-0b2953a92b763f651	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	10.10.10.54	t3a.medium	dfc38a7b-871c-4707-8378-b3594e1eb9e0	PartialUpfront	26/03/2024	26/03/2025	1742947200
+ESTUDIOMU¥IZ	RDS	emuniz-sql-managed.b0df6bfaeccd.database.windows.net	92053296-102b-49f5-9d5a-38661c9ece5c	Manageddatabases			UsogeneralSerieest ndar(Genÿ5)(64GB,4vCores,Almacenamientodecopiasdeseguridadconredundanciadezona)	d2d847d8-369e-495b-8aa1-53eec60c5f61	-	16/08/2023	16/08/2024	1723766400
+ESTUDIOMU¥IZ	EC2	SRV-APP	7ec88e09-b167-48dd-861d-20d13532b57b	Windows	WindowsServer2019-datacenter-gensecond	10.11.0.4	Standard_B12ms		Ademanda			-2209161600
+ESTUDIOMU¥IZ	EC2	SRVRTFWEB	01dfc4ab-1dd7-4f60-9a2f-7f227e762c53	Windows	WindowsServer2019-datacenter-gensecond	10.1.0.4	Standard_B2ms	c08c9951-381c-48a5-a056-3f383c8d1ff9	-	15/05/2023	15/05/2024	1715731200
+ESTUDIOMU¥IZ	EC2	SRVAPP02restore	ae6c4a42-3455-44cf-9123-477a22a911d7	Windows		10.11.1.6	Standard_D4ds_v5	9687d25c-ffc3-4f99-bdb5-e21fbc606b60	-	7/07/2023	7/07/2026	1783382400
+ESTUDIOMU¥IZ	EC2	hana-cloudb1	20c4b208-994a-4a1e-941e-907f0e3c7cb3	Linux	sles-12-sp5-basicgen1	10.11.3.5	Standard_E16ds_v5		Ademanda			-2209161600
+ESTUDIOMU¥IZ	EC2	SRVAPPDESK	bce3b45d-a040-4966-98a7-70c1147beca3	Windows	WindowsServer2019-datacenter-gensecond	10.11.1.8	Standard_E4s_v5	1e48a30a-4ee8-49ae-9ad4-81fb97d50ff8	-	15/08/2023	15/08/2024	1723680000
+ESTUDIOMU¥IZ	EC2	SRVAPPWEB	a7af1964-a05b-45bd-a9ed-8e9580bd4a45	Windows	WindowsServer2019-datacenter-gensecond	10.11.1.5	Standard_E4s_v5	bec6ce20-56e8-4ef3-a326-20019d4ec448	-	15/08/2023	15/08/2024	1723680000
+ESTUDIOMU¥IZ	EC2	B1-Cliente-RDS	19537a8a-ede3-4d48-b222-4c5840b95719	Windows	WindowsServer2019-datacenter-gensecond	10.11.0.5	Standard_E8s_v5	ab8e71a8-ccf6-479a-b871-8f4cde833672	-	15/07/2022	15/07/2025	1752537600
+ESTUDIOMU¥IZ	EC2	SRVAPP01v2	03e6a4ee-6a51-4f97-b9b3-151df3ca80b7	Windows		10.0.0.4	Standard_B4ms	9738c97b-d8bc-4003-b461-c91e8d09fd31	-	16/05/2024	15/05/2025	1747267200
+EuroRenting	EC2	eurorenting-solman-prd-solman	i-07ecc1c54b060c379	Linux		192.168.41.45	r4.xlarge		Ademanda			-2209161600
+EuroRenting	EC2	eurorenting-s4-qas-srvs4qas(s4qas)	i-03d5803e99f26eb0a	Linux	SLES12.5	192.168.41.120	r5.4xlarge		Ademanda			-2209161600
+EuroRenting	EC2	eurorenting-s4-dev-srvs4dev(s4dev)	i-0f16d91bf19d1aacd	Linux	SLES12.5	192.168.41.58	r5.4xlarge		Ademanda			-2209161600
+EuroRenting	EC2	eurorenting-s4-prd-srvs4prd	i-0d9e15f104e9a6109	Linux	SLES12.5	192.168.41.38	r5.8xlarge	ffb2fe90-0cd0-4ea6-a1f5-43ffb32b85be	PartialUpfront	25/10/2021	24/10/2024	1729728000
+EuroRenting	EC2	eurorenting-nat-prd-nat	i-041cc9db683755fc7	Linux	AmazonLinuxAMI2017.09	192.168.41.25	t3a.micro	2626a827-fdaf-4575-822e-19f8ebc2cdbd	PartialUpfront	7/09/2021	6/09/2024	1725580800
+EuroRenting	EC2	eurorenting-router-dev-saprouter	i-092380df315b4f8ca	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.41.10	t3a.large	98860b70-0fe8-43e0-806c-c234b24f0510	PartialUpfront	6/09/2021	5/09/2024	1725494400
+Femar	EC2	femar-s/4-dev-s4hanadev	i-0f787b32ad61ea844	Linux	SLES15.3	192.168.100.245	r5.4xlarge	8f3f2b5f-0810-45a9-b88f-3d4088162f63	PartialUpfront	20/10/2022	19/10/2025	1760832000
+Femar	EC2	femar-s/4-qas-s4hanaqas	i-0b58a65414428dccf	Linux	SLES15.3	192.168.100.177	r5.4xlarge	b6f54616-fbfe-488c-aa11-c20b8f0e92e3	PartialUpfront	17/12/2022	16/12/2025	1765843200
+Femar	EC2	femar-sandbox-prod	i-067a9f3357c862819	Linux	SLES15.3	192.168.100.171	r5.8xlarge		Ademanda			-2209161600
+Femar	EC2	femar-s/4-prd-s4/hanaprd	i-0fb2ed61219a9b95b	Linux	SLES15.3	192.168.100.236	r5.8xlarge	f6c74b24-7693-4ee7-b0aa-b6c5f447523b	PartialUpfront	17/12/2022	16/12/2025	1765843200
+Femar	EC2	femar-fiori-prd-fioriprd	i-03752430c66a87d38	Linux	SLES12.5	192.168.100.228	r5.xlarge		Ademanda			-2209161600
+Femar	EC2	femar-solman-prd-solman	i-0a35fda9b18524c16	Linux		192.168.100.173	r5.xlarge		Ademanda			-2209161600
+Femar	EC2	femar-nat-prd-nat	i-0640c2469963605b2	Linux	AmazonLinuxAMI2018.03	192.168.100.41	t3.small	ff9f016b-60b0-4206-8ce8-a128ae2099d7	PartialUpfront	4/10/2022	3/10/2025	1759449600
+Femar	EC2	femar-router-dev-saprouter	i-0dafb4b705685cc66	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.100.17	t3a.large	5fabf6f1-9354-4350-a8a1-39734a568995	PartialUpfront	4/10/2022	3/10/2025	1759449600
+FORTUNASILVER	EC2	fsazcancdc01	2689cc42-a47d-4261-978e-5932e732019e	Windows	WindowsServer2019-datacenter-gensecond	172.20.8.4	Standard_D2s_v3		Ademanda			-2209161600
+FORTUNASILVER	EC2	FG-FGT-A	c848319c-37a0-4039-b970-0e7d5939d4c4	Linux	fortinet_fortigate-vm_v5fortinet_fg-vm_payg_2022	172.20.0.5	Standard_F2s		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-erp-produccion-erpprd	i-0d08cd9b77d23328e	Linux	SLES15.1	11.1.0.20	r5.4xlarge		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-erp-desarrollo-erp-dev	i-0c5a83391838a61e6	Linux	SLES15.1	11.1.0.58	r5.large		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-solman-produccion-solman	i-01a2e85dae9463267	Linux		11.1.0.28	r5.large		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-erp-calidad-qaserp-(erpqas)	i-04a6bf81a6b07f781	Linux	SLES15.1	11.1.0.52	r5.xlarge		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-nat-desarrollo-nat	i-056e6ef783a21edcb	Linux	AmazonLinuxAMI2018.03	11.1.0.9	t3a.micro		Ademanda			-2209161600
+Fuxion	EC2	fuxioperu-router-desarrollo-saprouter	i-70a86ef4	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	11.1.0.6	t3a.large		Ademanda			-2209161600
+FuxionB1	EC2	fuxionb1-nat-desarrollo-nat	i-420a3bfd	Linux	AmazonLinuxAMI2014.09	10.1.0.37	t2.micro		Ademanda			-2209161600
+FuxionB1	EC2	fuxionb1-b1database-producci¢n-b1database	i-0fe20ad8	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.1.0.20	r3.2xlarge		Ademanda			-2209161600
+FuxionB1	EC2	fuxionb1-b1client-PRD-b1client	i-605ab3b7	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.1.0.4	r4.xlarge		Ademanda			-2209161600
+FuxionB1	EC2	fuxionb1-bastion-desarrollo-bastion	i-3204358d	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.1.0.36	t2.small		Ademanda			-2209161600
+Galilea	EC2	ubuntu	i-00c2bc1cc8f196735	Linux	Ubuntu14.04	192.168.99.130	c3.xlarge	7d5b2658-d4c2-4c2b-a4af-a2ac47d66830	NoUpfront	2/02/2024	1/02/2027	1801440000
+Galilea	EC2	Ubuntu2	i-0f963e194feb19125	Linux	Ubuntu20.04	192.168.99.20	t3a.medium	abd8310c-cb4f-420c-8b5b-0140b774d27a	NoUpfront	1/02/2022	31/01/2025	1738281600
+Galilea	EC2	Ubuntu2-RITM0062243-CLON	i-0e1fdc89ac853a1f5	Linux	Ubuntu20.04	192.168.99.175	t3a.medium		Ademanda			-2209161600
+GRUPASA(EC)	EC2	NoAplica(Sinaccesos)							-			-2209161600
+GrupoBuitrago	EC2	buitragosaprouter	de4fbd07-e887-43bc-9333-52112714e3bd	Windows	WindowsServer2022-datacenter-azure-edition	10.4.0.4	Standard_B2ms	5b8bcac2-b178-4d3a-8fe5-3277d7da3a1c	-	26/01/2024	26/01/2027	1800921600
+GrupoBuitrago	EC2	SAPS4HANADEV	17887f18-a67b-4f33-8787-d2d8f405ab7a	Linux	sles-15-sp4-basicgen2	10.4.1.4	Standard_E16s_v5	b1929bc0-6e01-4e61-ae9a-dd0f0eac197d	-	26/01/2024	26/01/2027	1800921600
+GrupoBuitrago	EC2	SAPS4HANAPRD	de4e2ad0-1ea4-403c-90c0-ee49c1cec52c	Linux	sles-15-sp4-basicgen2	10.4.1.5	Standard_E32s_v5	a28385b6-9c92-493f-a208-a41c2032c721	-	26/01/2024	26/01/2027	1800921600
+GrupoBuitrago	EC2	SAPS4HANAQAS	9afd0d80-d64f-4214-b56a-97e9e8bf8191	Linux	sles-15-sp4-basicgen2	10.4.2.4	Standard_E32s_v5	076d0399-15b3-42b8-8570-0ca6e41a9ced	-	26/01/2024	26/01/2027	1800921600
+HIVIMAR	EC2	vhhvmdesci	3a056237-f76c-4d37-9702-8260167453d4	Linux		192.168.48.6	Standard_E16ds_v4	61eede6f-4ab1-4396-8b56-e25407e5ea35	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	hvmtrx	513ad6f6-abed-411c-a06f-d6f7ba36423c	Linux	sles-15-sp2-basicgen1	192.168.48.13	Standard_E2_v4	1474d01e-5093-4006-a491-76d27f47b5be	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	hvmsrouter	2eea8401-f739-4dec-a950-15d532859344	Windows	WindowsServer2019-Datacenter-smalldisk	192.168.48.5	Standard_E2s_v4	1d442abb-9d38-4bd6-b27a-9447a25387fc	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmdfici	c69c454b-8029-43b0-aa0d-d39f43ce6eb7	Linux	sles-15-sp2-basicgen1	192.168.48.7	Standard_E2s_v4	3693792b-ab8e-4984-b6df-e48008817726	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmqfici	64d88dab-6a0a-401c-9dc6-63d895c44cdd	Linux	sles-15-sp2-basicgen1	192.168.48.9	Standard_E2s_v4	485d9e66-a4fa-4ecc-973b-3bc47edd0778	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmqasci	07b6cb95-a004-4796-983a-bc163432dc45	Linux		192.168.48.10	Standard_E32ds_v4	c0d5aab0-47f0-438f-97cf-bcf3ab979076	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmdepdb01	523fcca1-b86a-48cf-9504-7d32d06f98b4	Linux	sles-15-sp2-basicgen1	192.168.48.11	Standard_E48ds_v4	111be943-494d-4b24-aee4-7310024bb889	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	srvsolman	54cc0664-1a35-496a-b3d5-cdca9c7b1cd3	Linux	sles-15-sp2-basicgen1	192.168.48.4	Standard_E4s_v4	dddccbfb-bd02-4b6d-a3b9-eac80aa743dd	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmpfici	865e9023-b1d8-4ef1-8656-c8a776da6386	Linux	sles-15-sp2-basicgen1	192.168.48.8	Standard_E4s_v4	1fcddc13-e055-40c0-9fd2-0671156c44b8	-	23/04/2024	22/04/2027	1808352000
+HIVIMAR	EC2	vhhvmproci	af601a61-d58c-4185-ba7e-a3f0055d65a0	Linux	sles-15-sp2-basicgen1	192.168.48.12	Standard_E8ds_v4	2ea831ce-de97-4bea-b01c-ab7493efcba5	-	23/04/2024	22/04/2027	1808352000
+ILC	EC2	ilc-tf-prod-app-1	i-06ee4835536e6a01d	Linux	Ubuntu22.04	10.1.2.199	c6a.xlarge	8e2dde5b-ecb2-4433-aad2-1cfb828ef043	NoUpfront	14/09/2023	13/09/2026	1789257600
+ILC	EC2	ilc-wordpress-prod-1(Ubuntu20-borrar)	i-040002cd0630f9443	Linux		10.1.1.164	c6a.xlarge		Ademanda			-2209161600
+ILC	RDS		ilc-db	mysql	8.0.32	-	db.t3.small	ilc-db	PartialUpfront	14/09/2023	14/09/2026	1789344000
+Incarail	EC2	NoAplica(Sinservidores)							-			-2209161600
+INTELIGO	EC2	ndbinteligo	2dc0d32e-ca2d-44e8-bfe0-d02d9f8ec0aa	Linux	sles-15-sp1-basicgen2	172.17.112.68	Standard_DS14_v2	3c3a86c0-13e7-48ce-8568-ce9eba728707	-	23/10/2023	23/10/2026	1792713600
+INTELIGO	EC2	rdsinteligo	d189dfe2-3419-47ba-a498-a6c070aeb377	Windows	WindowsServer2019-datacenter-gensecond	172.17.112.4	Standard_E8ds_v5	e0f7fc5e-42be-429a-951d-ce7b92544eef	-	23/10/2023	23/10/2026	1792713600
+INTERCIA	EC2	NoAplica(Sinaccesos)							-			-2209161600
+INTEROC	EC2	intrsrouter	99264272-868f-486c-9a90-21284d9ad9db	Windows	WindowsServer2019-Datacenter-smalldisk	172.20.0.5	Standard_B2ms	daf920b3-d874-46da-866a-46adcf53cb72	-	10/08/2021	10/08/2024	1723248000
+INTEROC	EC2	sapdev	f531c5fd-e3d1-4446-a094-c6784dcc8617	Linux	sles-12-sp5-basicgen1	172.20.0.4	Standard_E4ds_v4	07fe9438-32dc-4635-af3e-da3f7cbd6c3c	-	13/08/2021	13/08/2024	1723507200
+INTEROC	EC2	sapqas	8d8dde18-603b-42c0-ad94-18392ce66dae	Linux	sles-12-sp5-basicgen1	172.20.0.6	Standard_E4ds_v4	75d481b3-cb88-46b8-a41c-22a5af5b98a9	-	10/08/2021	10/08/2024	1723248000
+INTEROC	EC2	srvsolman	6cf95eb5-dd7d-450c-a0f1-80fc33d635e2	Linux	sles-15-sp2-basicgen2	172.20.0.8	Standard_E4s_v4		Ademanda			-2209161600
+INTEROC	EC2	sapprd	0b9b5677-22c5-497f-ae3d-2b6ea8f12e1e	Linux	sles-12-sp5-basicgen1	172.20.0.7	Standard_E8ds_v4	c7ad1ff7-5ad6-4e8e-8577-0a7b2302eab7	-	27/08/2021	27/08/2024	1724716800
+IPAC(EC)(RISE)	EC2	NoAplica(ServidoresRise)							-			-2209161600
+ITS	EC2	NoAplica(Sinservidores)							-			-2209161600
+Kayser	EC2	kayser-openvpnserver-producci¢n-openvpnserver	i-0bffee274bf092de2	Linux	Ubuntu18.04	10.100.0.176	t3a.medium	26beb141-c0ca-4228-93bc-6ac8e110ebb3	NoUpfront	12/06/2023	11/06/2026	1781136000
+Kayser	EC2	kayser-nat-produccion-natserver	i-01877a17338b5ab3a	Linux	AmazonLinuxAMI2018.03	10.100.0.102	t3a.micro	97fafaf9-3ebf-42b6-a1ae-8e36f415bef6	NoUpfront	11/07/2023	10/07/2026	1783641600
+Kayser	EC2	kayser-bd-producci¢n-bdserver	i-037de6178e9c74834	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.100.1.149	r5.xlarge	fa6e6ad1-a768-4c6c-b545-92c18cf6451f	NoUpfront	2/06/2023	1/06/2026	1780272000
+Kayser	EC2	kayser-app-producci¢n-appserver	i-05b8e550a7589412d	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.100.1.254	t2.2xlarge	184ea411-82f1-48cd-8df9-df3eee39ae0e	NoUpfront	2/06/2023	1/06/2026	1780272000
+Kayser	EC2	kayser-bastion-desarrollo-bastion	i-0ca4e8052038ed51d	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.100.0.61	t3a.medium	1ffc67a5-930d-4115-9594-4c6d8ad0a9fb	NoUpfront	6/12/2023	5/12/2024	1733356800
+Kayser	EC2	kayser-bd-produccion-bd-server10.100.0.196	i-08b6f50b2e5bd50c5	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.100.0.196	t3a.medium	1f79e93b-ef09-4670-819a-a2afacd11df6	NoUpfront	11/07/2023	10/07/2026	1783641600
+KFC(EC)	EC2	NoAplica(Sinaccesos)							-			-2209161600
+LACALERA	RDS	sqlazurecalera.database.windows.net	ea5342c5-b906-40bb-bc0f-9feafea372da	AzureSQLDatabase	ÿ	ÿ	StandardS7:800DTUs		Ademanda			-2209161600
+LACALERA	RDS	lacaleradbprod.database.windows.net	0212bb87-af39-4975-855b-c69f1c4b47fc	AzureSQLDatabase	ÿ	ÿ	StandardS4:200DTUs		Ademanda			-2209161600
+LACALERA	RDS	bd-granjaprod.mysql.database.azure.com	9d62aca0-19a5-4287-b399-ca785391afa9	MySQL	5.7	ÿ	GeneralPurpose,2vCore(s),50GB	8c504a66-6b2c-4c60-8d35-dbad155a68a2	-	12/06/2023	12/06/2024	1718150400
+LACALERA	RDS	lacalera-db-prod.mysql.database.azure.com	9d62aca0-19a5-4287-b399-ca785391afa9	MySQL	5.7	ÿ	GeneralPurpose,2vCore(s),50GB	be518c30-2c4c-4942-8081-89d12e14545a	-	21/03/2022	21/03/2025	1742515200
+LACALERA	EC2	UXCALERA	dac88006-c96b-4dad-99cf-8d56d1393d2d	Windows	WindowsServer2019-datacenter-gensecond	10.0.0.4	Standard_D4ds_v4		Ademanda			-2209161600
+LACALERA	EC2	lclprodpbi	ae26025b-7d56-4d25-9f83-298c272f7209	Linux	0001-com-ubuntu-server-focal20_04-lts-gen2	172.16.40.5	Standard_B2s	2d39e293-c444-4658-9c13-3128abb0c09f	-	12/06/2023	12/06/2026	1781222400
+LACALERA	EC2	lclrprodgranja	8959f3f5-eb5b-457f-a8b8-b1cd1c8b6a87	Linux	0001-com-ubuntu-server-focal20_04-lts-gen2	172.16.40.6	Standard_D2as_v4	184b7f33-2a2a-4246-8426-4886e7c988a2	-	12/06/2023	12/06/2026	1781222400
+LACALERA	EC2	lacalera-prod-app	db9eb40e-b6c5-4902-9281-7ee98a921a79	Linux	UbuntuServer18.04-LTS	172.16.40.4	Standard_D2s_v3	a6555de5-c29a-403b-9dff-727d6ed84a5c	-	9/05/2023	9/05/2026	1778284800
+LACALERA	EC2	lclrsrouter-new	42d8f2a7-ac03-424f-bddb-ae023b559dff	Windows		172.16.1.4	Standard_D2s_v4	f18d6d3f-d555-4ed6-9059-35505c3a65e3	-	21/03/2022	21/03/2025	1742515200
+LACALERA	EC2	srvswdp-new	aa8dc36e-35a6-4bd5-8553-198824040f05	Linux		172.16.1.7	Standard_D2s_v4	0dc6fd70-6627-462a-8d47-0102f4e89abe	-	24/03/2022	24/03/2025	1742774400
+LACALERA	EC2	srvs4dev-new	506d9551-95b9-4cff-853e-6da06dfc3359	Linux		172.16.3.4	Standard_E16s_v4		Ademanda			-2209161600
+LACALERA	EC2	lcl-srvs4prd	d9b01c15-f459-4909-b270-8830b5a51271	Linux		172.16.1.8	Standard_E32ds_v4	7d9c009c-5d15-4722-a320-55216dc36056	-	15/03/2022	15/03/2025	1741996800
+LACALERA	EC2	srvs4qas-new	48ee98a8-d6d7-49a4-a0c6-95797a046dfb	Linux		172.16.2.4	Standard_E48s_v4		Ademanda			-2209161600
+LACALERA	EC2	srvsolman-new	e0ae3bbf-d339-46fa-988b-aa50ec06493a	Linux		172.16.1.5	Standard_E4s_v4		Ademanda			-2209161600
+LABORATORIOSBAGà(EC)	EC2	NoAplica(Sinaccesos)							-			-2209161600
+Latina	EC2	latina-erp-prd-saperpprd	i-044dd0fba1a9df9bc	Linux	RedHatEnterpriseLinuxServer7.9	192.168.2.12	r5.2xlarge	1d1fbecb-4e28-4cd7-b0d7-ce289c973c77	NoUpfront	26/09/2023	25/09/2026	1790294400
+Latina	EC2	latina-erp-dev-saperpdev	i-0dea9a2f00a1cf6a6	Linux	RedHatEnterpriseLinuxServer7.9	192.168.4.11	r5.large	71c2b693-dd03-435e-94d7-3ead522dcf85	NoUpfront	30/08/2023	29/08/2026	1787961600
+Latina	EC2	latina-pi-dev-sappidev	i-0f3001b3001d68fe2	Linux	RedHatEnterpriseLinuxServer7.9	192.168.2.13	r5.large	c658e24a-1077-4c22-b505-f0888b0371bb	NoUpfront	13/10/2023	12/10/2026	1791763200
+Latina	EC2	latina-pi-prd-sappiprd	i-0783d869327328a44	Linux	RedHatEnterpriseLinuxServer7.3	192.168.4.13	r5.xlarge	6175e461-8a7d-49cc-aa99-e554c4657d22	NoUpfront	9/05/2023	8/05/2026	1778198400
+Latina	EC2	latina-sdi-prd-srversdi-(srvsdi)	i-06c426ea770199753	Linux	RedHatEnterpriseLinuxServer7.5	192.168.10.72	r5.xlarge	d6977fae-cbf1-49dd-a697-730627e163fe	NoUpfront	2/09/2023	1/09/2026	1788220800
+Latina	EC2	latina-erp-qas-saperpqas	i-0017ced96b0e2b147	Linux	RedHatEnterpriseLinuxServer7.9	192.168.4.10	r5.xlarge	ddb550f9-c31f-4bf2-a587-ee908af318e5	NoUpfront	30/08/2023	29/08/2026	1787961600
+Latina	EC2	latina-solman-prd-sapsolman	i-0fbc3738ac8a74165	Linux		192.168.4.185	r5.xlarge		Ademanda			-2209161600
+Latina	EC2	latina-app-prd-appserver	i-dd6da234	Linux		192.168.9.42	t3.medium	e47034a5-902c-4826-8475-4285e43f2fa7	NoUpfront	27/04/2023	26/04/2026	1777161600
+Latina	EC2	latina-nat-prd-nat	i-01e48d88a4584c978	Linux	AmazonLinuxAMI2018.03	192.168.1.198	t3a.micro	a0d0d88a-a894-4cdc-b9fe-409602945ca1	NoUpfront	2/09/2023	1/09/2026	1788220800
+Latina	EC2	latina-rva-prd-rva_db	i-d0719f31	windows	MicrosoftWindowsServer2008R2Datacenter6.1.7601	192.168.9.20	m3.medium	27d98fab-54bf-4fe4-946f-e8435c0a2bae	NoUpfront	27/04/2023	26/04/2026	1777161600
+Latina	EC2	latina-rva-prd-rva_web	i-2f4fa1ce	windows		192.168.9.4	m3.medium	af736b37-f5fc-4335-8444-29e16182af34	NoUpfront	27/04/2023	26/04/2026	1777161600
+Latina	EC2	latina-prd-srvdcaws19v2	i-0ee2e5cf5f54e4ce5	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	192.168.14.11	m5.large	e58bf129-5ac5-4ea1-8aa6-733931653322	NoUpfront	1/08/2023	31/07/2026	1785456000
+Latina	EC2	latina-webreq-qas-webreq_qas	i-04358764c9136c893	windows	MicrosoftWindowsServer2019Standard10.0.17763	192.168.15.13	r5.large	6cd8715e-138d-40e3-90cc-8862d522cd25	NoUpfront	13/10/2023	12/10/2026	1791763200
+Latina	EC2	latina-webreq-prd-webreq	i-1ffed7a0	windows	MicrosoftWindowsServer2019Standard10.0.17763	192.168.7.4	r5.large	a2bb1e46-a771-49be-aa54-3337f6252f52	NoUpfront	19/05/2023	18/05/2026	1779062400
+Latina	EC2	latina-adfs-prd-srvadfs	i-0572cb7d79bf593bb	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.10.68	t3.medium	3911dfaa-4f6f-4ef7-8fc7-e63d6e7128f7	NoUpfront	9/05/2023	8/05/2026	1778198400
+Latina	EC2	latina-router-dev-saprouter	i-0ea49085dcdb3f191	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.1.205	t3a.large	9c62c24c-0e9f-48f1-99c5-a217ecba2bea	NoUpfront	22/09/2023	21/09/2026	1789948800
+LaViga	EC2	E-Commerce-PRD	i-07cbba1fe812a639d	Linux	Ubuntu20.04	172.30.0.235	m5.large	679aa47a-5285-45d7-b421-d5dc06ebadcf	NoUpfront	23/01/2024	22/01/2027	1800576000
+LaViga	EC2	ERPQAS	i-03c29103aa038cbe3	Linux	SLES15.5	172.30.1.96	r6a.2xlarge	a330b372-89ff-41b1-9c59-fc0c044913f3	NoUpfront	28/12/2023	27/12/2026	1798329600
+LaViga	EC2	ERPPRD	i-0af035f8565860d57	Linux	SLES15.5	172.30.1.222	r6a.4xlarge	2151b13e-4b14-4381-8259-17ac9a5a3b6a	NoUpfront	4/01/2024	3/01/2027	1798934400
+LaViga	EC2	ERPDEV	i-04fdbda6878c9741f	Linux	SLES15.5	172.30.1.250	r6a.xlarge	050c86d9-3152-4b51-ba9e-762d2ac0d22c	NoUpfront	5/12/2023	4/12/2026	1796342400
+LaViga	EC2	E-Commerce-DEV	i-084b074b44ee5edf0	Linux	Ubuntu20.04	172.30.0.169	t3.large	19a406e5-8b09-4511-8dc4-e1dc07ac14ab	NoUpfront	23/01/2024	22/01/2027	1800576000
+LaViga	EC2	WEBSERVER_PRD	i-072531c5bb707a90d	Linux	Ubuntu20.04	172.30.0.100	t3a.medium	3304ea41-57d0-4b0d-b38e-741611220214	NoUpfront	4/01/2024	3/01/2027	1798934400
+LaViga	EC2	nat-instance	i-065b84732deacb68d	Linux	AmazonLinuxAMI2018.03	172.30.0.131	t3a.micro	9be91415-94a6-4332-94fd-4f64fb5c423f	NoUpfront	5/12/2023	4/12/2026	1796342400
+LaViga	EC2	WEBSERVER_DEV	i-017222c73d2589e4c	Linux	Ubuntu20.04	172.30.0.229	t3a.small	d0111a64-c9c4-4555-b6d0-c8bda53b2243	NoUpfront	4/01/2024	3/01/2027	1798934400
+LaViga	EC2	saprouter	i-00cde5b4ab335b0b0	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	172.30.0.13	t3a.large	4fd8dcf7-ba53-471c-a1ed-09bbc14edf56	NoUpfront	5/12/2023	4/12/2026	1796342400
+MAQUINARIAS	EC2	bastionmaq	85860032-4f2c-43d5-85ef-e397f66d335e	Windows	WindowsServer2016-datacenter-gensecond	10.42.0.132	Standard_B2ms	ff81c69a-65da-438a-9bd4-f2b7ef0975b9	-	5/07/2022	5/07/2025	1751673600
+MAQUINARIAS	EC2	nmsldc01	384641af-a880-4d90-aedf-0318a27e4f5c	Windows	WindowsServer2016-datacenter-gensecond	10.42.0.4	Standard_B2ms	ff81c69a-65da-438a-9bd4-f2b7ef0975b9	-	5/07/2022	5/07/2025	1751673600
+MAQUINARIAS	EC2	NMSLFEW01-N	b05fd32a-f849-4201-81c3-3de01a6764c0	Windows		10.42.0.135	Standard_B2s	b5287654-c8e4-47e6-9c7a-449d69cb0bdd	-	5/07/2022	5/07/2025	1751673600
+MAQUINARIAS	EC2	nmslfeweb01-new	08024299-2708-4280-b5fc-0d95970c3a22	Linux	debian-1111-gen2	10.42.0.133	Standard_B2s	28bda4e0-876f-423e-ac74-b54fccd64d74	-	16/07/2022	16/07/2025	1752624000
+MAQUINARIAS	EC2	NMLMOWASN	ded802cd-994a-4236-ba2a-f5841c442755	Windows		10.42.0.137	Standard_D2s_v5	12610a4a-f586-48f7-b4e2-b774eb2333da	-	1/08/2022	1/08/2025	1754006400
+MAQUINARIAS	EC2	DEVNMSLFEBD01-DEV	17803fad-8fae-403e-a4e7-892c35d5e7ff	Windows		10.42.0.9	Standard_D4s_v5	94d3bf4e-129a-426d-8ee1-50d33adeed07	-	26/10/2023	26/10/2024	1729900800
+MAQUINARIAS	EC2	APPSERVER	b0b44e4e-58d0-4311-b490-566a3b57ced5	Linux		10.42.0.8	Standard_E4s_v4	c246e29d-edf2-416b-b20b-d8490e9f04dd	-	7/11/2023	7/11/2024	1730937600
+MAQUINARIAS	EC2	NMLMOSQL01N01	0755596f-b5cc-4afd-ac27-cca29c2f70d5	Windows		10.42.0.5	Standard_E4s_v5	fdd70f08-1cdb-41c2-b04b-b7e8f6c426f3	-	14/07/2022	14/07/2025	1752451200
+MAQUINARIAS	EC2	NMSLFEAPP01ND	61531ba8-ffef-4887-8e84-9bbeb71e3aa3	Windows	WindowsServer2012-r2-datacenter-gensecond	10.42.0.134	Standard_F8s_v2	b6bfa22d-dd73-41f0-974a-609331ab9b3e	-	5/07/2022	5/07/2025	1751673600
+MAQUINARIAS	EC2	NMSLFEBD01	09b70a6e-4dda-464b-a497-f700271e3983	Windows		10.42.0.7	Standard_F8s_v2	737098b3-3017-4804-8935-5fe8c82e5639	-	16/07/2022	16/07/2025	1752624000
+MarathonEcuador	EC2	marathonecuador-scc-prd-1	i-028fea73df4b5272e	Linux	SLES15.5	172.1.3.22	m5a.xlarge	c203c83c-06dd-4b5f-9bdd-524c8f65f3ae	NoUpfront	12/12/2023	11/12/2024	1733875200
+MarathonEcuador	EC2	marathonecuador-scc-prd-2	i-054fefc3f008e090e	Linux	SLES15.5	172.1.3.69	m5a.xlarge	d0568875-bee1-42ea-aa60-5c448cd1a792	NoUpfront	12/12/2023	11/12/2024	1733875200
+MarathonEcuador	EC2	marathonecuador-erp-calidad-erphanaqas	i-0cf5421b9a1fa36c3	Linux	SLES15.3	172.1.1.10	r5.16xlarge	b2f5447b-9a05-49df-90bd-851fb2de36bc	NoUpfront	2/08/2023	1/08/2024	1722470400
+MarathonEcuador	EC2	marathonecuador-erp-desarrollo-erphanadev	i-0c6132f6663dc47e4	Linux	SLES15.3	172.1.0.10	r5.4xlarge	85866ff0-fcd5-4d51-8805-109c703c3130	PartialUpfront	12/09/2021	11/09/2024	1726012800
+MarathonEcuador	EC2	marathonecuador-fiori-desarrollo-fioridev	i-092903149b8092283	Linux	SLES15.3	172.1.0.20	r5.large		Ademanda			-2209161600
+MarathonEcuador	EC2	marathonecuador-po-desarrollo-srvpodev	i-05ed577cb2b6589cf	Linux	SLES15.3	172.1.0.30	r5.large		Ademanda			-2209161600
+MarathonEcuador	EC2	marathonecuador-fiori-producci¢n-fioriprd	i-00f20a5b18369ce51	Linux	SLES15.3	172.1.2.20	r5.xlarge	0ef21f9f-f9a7-4b49-bd31-9fd4f8bef447	PartialUpfront	29/09/2021	28/09/2024	1727481600
+MarathonEcuador	EC2	marathonecuador-po-produccion-srvpoprd	i-02723790e44fbac4c	Linux	SLES15.3	172.1.2.30	r5.xlarge	7df12985-bc51-4802-8cdc-a344507cb565	PartialUpfront	17/09/2021	16/09/2024	1726444800
+MarathonEcuador	EC2	marathonecuador-solman-desarrollo-solman2.0	i-05de431d9be838d4b	Linux		172.1.2.40	r5.xlarge		Ademanda			-2209161600
+MarathonEcuador	EC2	marathonecuador-erp-produccion-erphanaprd	i-0ee939d5a2acd1686	Linux	SLES15.3	172.1.2.10	r6i.32xlarge	406ca1ba-f95b-401f-9933-0a779ea382c9	PartialUpfront	8/09/2023	28/09/2024	1727481600
+MarathonEcuador	EC2	marathonecuador-nat-desarrollo-ip-172-1-3-77-(nat)	i-060dfcd0c1257cb99	Linux	AmazonLinuxAMI2017.09	172.1.3.77	t3a.micro	b892db63-bd4b-4744-9b47-aa82d9473752	PartialUpfront	6/09/2021	5/09/2024	1725494400
+MarathonEcuador	EC2	marathonecuador-saprouter-desarrollo-saprouter	i-0154df842b78406a0	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	172.1.3.10	t3a.large	665b5faf-07b3-47bd-b991-48adc5c830bb	PartialUpfront	16/09/2021	15/09/2024	1726358400
+MARATHONPERU	EC2	NoAplica(Sinservidores)							-			-2209161600
+MAREAUTO(EC)	EC2	NoAplica(Sinaccesos)							-			-2209161600
+MBRenting	EC2	mbrenting-erp-prd-erpprd	i-0c541afbe0fa86c10	Linux	SLES12.5	10.128.6.26	r5.2xlarge	6ab3fcef-7a8e-4868-99e8-87c302341f82	NoUpfront	26/07/2023	25/07/2026	1784937600
+MBRenting	EC2	mbrenting-erp-dev-erpdev	i-0e6961b3aeeb373c0	Linux	SLES12.5	10.128.6.104	r5.large		Ademanda			-2209161600
+MBRenting	EC2	mbrenting-erp-qas-erpqas	i-0a6ebd5c0891aa342	Linux	SLES12.5	10.128.4.59	r5.xlarge		Ademanda			-2209161600
+MBRenting	EC2	mbrenting-solman-prd-solman	i-09110e57d6ffe5a56	Linux		10.128.6.79	r5.xlarge		Ademanda			-2209161600
+MBRenting	EC2	mbrenting-nat-prd-nat	i-086cb4abe6ed37ff8	Linux	AmazonLinuxAMI2018.03	10.128.1.191	t3a.micro	8570d553-0972-4fd5-9a73-943c9dffdf94	AllUpfront	26/07/2023	25/07/2026	1784937600
+MBRenting	EC2	mbrenting-router-dev-saprouter-new	i-076ddc432a62ed65e	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.128.3.184	t3.large		Ademanda			-2209161600
+Medrock	EC2	medrock-nat-desarrollo-nat	i-005e09b1ba96c2b55	Linux	AmazonLinuxAMI2018.03	192.168.2.12	t3a.micro	880d7736-c7a8-4447-ba1e-5a1f8d339df9	NoUpfront	29/12/2022	28/12/2025	1766880000
+Medrock	EC2	medrock-web-produccion-webserver-fe	i-0b1bb384a761d479a	windows		192.168.2.132	r5.large	d4a50bbf-512a-4ec4-b61d-d98c413468e7	NoUpfront	1/01/2023	31/12/2025	1767139200
+Medrock	EC2	medrock-erp-desarrollo-saperpdev	i-0edbe25206d154892	windows		192.168.2.151	r5.large		Ademanda			-2209161600
+Medrock	EC2	medrock-erp-calidad-saperpqas	i-021a956cb05aa863a	windows		192.168.2.153	r5.large		Ademanda			-2209161600
+Medrock	EC2	medrock-solman-produccion-sapsolman	i-0f3357cae914d196c	windows		192.168.2.50	r5.xlarge	68b92c2e-c0b9-4ab8-b959-f2f39957d373	NoUpfront	29/12/2022	28/12/2025	1766880000
+Medrock	EC2	medrock-erp-produccion-saperpprd	i-04d10298d74dc51c8	windows		192.168.2.51	r5.xlarge		Ademanda			-2209161600
+Medrock	EC2	medrock-router-produccion-saprouter	i-09b3f281b70ecc9f4	windows		192.168.2.115	t3a.large	e56dca8f-5829-4803-86dc-6335b5ac10b2	NoUpfront	1/01/2023	31/12/2025	1767139200
+METALPREN	EC2	saprouter	bc4acbeb-9be0-4970-87b4-a973065ae5b7	Windows	WindowsServer2016-Datacenter	192.168.2.4	Standard_B2ms	50d52bda-930d-4ef4-8998-bb600e0b26e7	-	23/02/2023	23/02/2026	1771804800
+METALPREN	EC2	srvs4dev-1	05ef24db-ffd8-4edb-968f-5e481143d663	Linux		192.168.1.4	Standard_E16ds_v5	7e1beab3-fdb0-4067-b5b5-8cc581d53628	-	27/02/2023	27/02/2026	1772150400
+METALPREN	EC2	srvs4qasnew	d52a4a21-904e-4ad4-8def-e7a7b396b8db	Linux		192.168.1.6	Standard_E16ds_v5	d35609cc-c8e8-4ef3-8103-c0c2989915eb	-	27/02/2023	27/02/2026	1772150400
+METALPREN	EC2	srvs4qasnewclon	18f7d7d6-6c17-4fa8-8894-cf351a21da8a	Linux		10.1.0.5	Standard_E16ds_v5		Ademanda			-2209161600
+METALPREN	EC2	srvsolman	e554503c-6100-448b-8ed4-ace110f77fb4	Linux	SLES12-sp4	192.168.1.5	Standard_E8ds_v5	be5caac2-2674-4de4-a54c-b51e9a1ceed7	-	22/05/2023	22/05/2026	1779408000
+METALPREN	EC2	srvs4prd	5538de04-fa4c-4b87-997c-21ba0689f026	Linux	SLES12-sp4	192.168.1.7	Standard_M32ls	5f002074-e43e-475f-8e8d-2f719737f7c5	-	19/05/2023	19/05/2026	1779148800
+Metrica/Solara/Musiris	EC2	metrica-saphana-producci¢n-saphanab1	i-0430a52b1afc143db	Linux			r4.2xlarge		Ademanda			-2209161600
+Metrica/Solara/Musiris	EC2	metrica-nat-desarrollo-nat	i-0fd8485f2c3274346	Linux			t3a.micro		Ademanda			-2209161600
+Metrica/Solara/Musiris	EC2	metrica-rdp-producci¢n-saprdp-new	i-00cb82b7e8a5e762f	windows			r5.xlarge	ddcb0a63-722f-4815-ae67-db17fdcd4fc7	NoUpfront	26/10/2023	25/10/2024	1729814400
+MiBanco	EC2	NoAplica(Sinservidores)							-			-2209161600
+MICHELIN	EC2	BastionCA	c28cf65c-5a6e-4d2a-8d58-9ef5d8b65d34	Windows	WindowsServer2012-R2-Datacenter	172.16.1.8	Standard_B2s	fcd7665e-b90e-44f6-81c1-5bad367ca2df	-	20/09/2023	20/09/2026	1789862400
+MICHELIN	EC2	SRVDBPRODMINEW	fc90d86c-6aa0-4995-88ad-0f0fc38c751a	Windows		172.16.2.10	Standard_D12	1d248e12-e69a-4391-bdcf-29910ad6d356	-	20/09/2023	20/09/2026	1789862400
+MICHELIN	EC2	SRWEBP2021NEW2	3c53e83c-84bd-40a5-8477-a1d2695f7e09	Windows		172.16.1.10	Standard_DS11_v2	e8c6575c-1fa5-4a23-a8e7-6f10d5512b81	-	20/09/2023	20/09/2026	1789862400
+MINERAKOLPA	EC2	NoAplica(Bitdefender)							-			-2209161600
+MISSIONPRODUCE	EC2	ADSERVER-FTPW-new	e6d1c8f3-9106-4be5-9547-9cc829266f3f	Windows	WindowsServer2019-Datacenter	10.34.2.50	Standard_B2ms	b1d3a922-c92b-4374-bf79-e58347071275	-	12/11/2021	12/11/2024	1731369600
+MISSIONPRODUCE	EC2	MPSAPROUTER	7c0aa475-c53e-42cc-9cf5-cbfda0c8d83e	Windows	WindowsServer2019-datacenter-gensecond	10.34.2.37	Standard_B2ms	a46a96b1-3aef-4615-a7e1-25a9b5435d51	-	29/11/2021	29/11/2024	1732838400
+MISSIONPRODUCE	EC2	F-DIGITALES-02	b59123f8-ad9b-4b7c-a70d-f7c50cfc6bad	Windows	WindowsServer2019-datacenter-gensecond	10.34.2.40	Standard_B4ms		Ademanda			-2209161600
+MISSIONPRODUCE	EC2	F-DIGITALES01	e40ef6c7-27e2-4057-8a5a-e2772e8acf13	Windows		10.34.2.51	Standard_B4ms	45e47f8b-455f-4cdd-bc9b-9965fc27e165	-	29/11/2021	29/11/2024	1732838400
+MISSIONPRODUCE	EC2	cato-vsocket-vm	073a9129-f2f5-4760-9b5d-bc1065d4727f	Linux		10.34.2.62	Standard_D3_v2	1f0eba31-75fa-4815-8287-91055eb50f6f	-	31/01/2022	31/01/2025	1738281600
+MISSIONPRODUCE	EC2	ERPAPPDEV	05082610-b756-4f76-bedd-b7610cac8f5f	Linux	sles-15-sp2-basicgen2	10.34.2.41	Standard_E16s_v4	08b4180f-b9f2-4c13-ab11-c8a046130302	-	19/05/2022	19/05/2025	1747612800
+MISSIONPRODUCE	EC2	ERPBDCTG02-NEW	66a4ab21-ecc6-410e-8e16-28511505371d	Linux		10.34.2.44	Standard_E32ds_v4	6182489a-3e18-431d-9214-1b36db60e09d	-	26/11/2021	26/11/2024	1732579200
+MISSIONPRODUCE	EC2	erpappqas-clon	98b8165b-5c66-4848-bfc9-f8fe7431959d	Linux		10.34.2.47	Standard_E32s_v4		Ademanda			-2209161600
+MISSIONPRODUCE	EC2	ERPAPPQAS-new	42698e1a-f3da-4733-9283-67fddc8351ff	Linux		10.34.2.69	Standard_E32s_v4	8e047974-e545-4d22-8e2a-9165c8ec2445	-	26/11/2021	26/11/2024	1732579200
+MISSIONPRODUCE	EC2	SOLMANPRD	02fa696f-481e-46b4-98f3-c595ebda6671	Linux	sles-15-sp2-basicgen2	10.34.2.48	Standard_E4s_v4	13b833b4-273d-41bd-a948-aa11eec88f46	-	29/11/2021	29/11/2024	1732838400
+MISSIONPRODUCE	EC2	ERPAPPPRD02-new	286434eb-0aaf-4f91-ad63-1ab570b99672	Linux		10.34.2.38	Standard_E8ds_v4	ffe5a2c7-ce35-4c5f-8a42-c7f13815f3ff	-	12/11/2021	12/11/2024	1731369600
+Misticorp	EC2	misticorp-web-producci¢n-weblin01	i-02ed81fa0e82623bf	Linux	RedHatEnterpriseLinux8.9	172.16.1.4	t3.small	e3f2bac8-8d2c-44df-b013-50ae029db65f	PartialUpfront	16/10/2021	15/10/2024	1728950400
+Misticorp	EC2	misticorp-nat	i-0045e3429740c083b	Linux		172.16.1.10	t3a.nano		Ademanda			-2209161600
+Misticorp	EC2	misticorp-web-producci¢n-webwin03_new	i-008e15ead81e8d396	windows		172.16.1.8	m5.large	11d4f6f8-17c5-4c29-9f49-03cf9e5d014e	PartialUpfront	29/09/2021	28/09/2024	1727481600
+Misticorp	EC2	misticorp-web-producci¢n-webwin02	i-66deb2b6	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.16.1.20	m5.xlarge		Ademanda			-2209161600
+Misticorp	EC2	APPSERVER	i-0ae165f1bf1a6d6a9	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.16.1.23	m5n.xlarge	573b8424-17ca-486e-8f8f-c3249237d475	NoUpfront	13/07/2022	12/07/2025	1752278400
+Misticorp	EC2	DBSERVER	i-0ef49ce30c5b25be2	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.16.1.52	m5n.xlarge	e2fe8b4b-f85b-4e41-a30f-cbdad079b667	NoUpfront	13/07/2022	12/07/2025	1752278400
+Misticorp	EC2	misticorp-bastion-desarrollo-bastion	i-5e8ae58e	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.16.1.21	t3a.small	1afd1dec-fb2c-4e9f-8a4d-3f5495b70c08	PartialUpfront	16/09/2021	15/09/2024	1726358400
+MITSUIAUTOMOTRIZ	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+MPeso	EC2	mpeso-last-producci¢n-mpeso_1last	i-0d9b056ee93cfa47d	Linux	DebianGNU/Linux8	10.82.32.5	t2.small	006221fc-da4e-4cdf-acf0-f76b5dccad10	PartialUpfront	6/10/2023	5/10/2026	1791158400
+MPeso	EC2	mpeso-last-producci¢n-mpeso_2last	i-0587a0ba024263ea1	Linux	DebianGNU/Linux8	10.82.32.13	t2.small	5c7e15e0-f5d9-423b-8f6d-ae07ca55a90c	PartialUpfront	6/10/2023	5/10/2026	1791158400
+MPeso	EC2	mpeso-traccar-producci¢n-traccar	i-012fda16793fbefd1	Linux	DebianGNU/Linux9	10.82.32.22	t3.medium	667a8372-4b1c-46f5-a0eb-a123c6e4b481	PartialUpfront	27/09/2023	26/09/2026	1790380800
+MPeso	EC2	mpeso-last-producci¢n-mpeso_3last	i-09fb731e5b10b2e24	Linux	DebianGNU/Linux10	10.82.32.115	t3a.small	d9e5c0f6-df84-43d9-a13f-dd2cd6d2fd84	PartialUpfront	13/09/2023	12/09/2026	1789171200
+MPeso	RDS		mpesolast	postgres	11.22	-	db.t3.2xlarge	mpesolast4	PartialUpfront	27/09/2023	27/09/2026	1790467200
+MPF	EC2	mpf-produccion-MPF-App01	i-0154dfe9214d62426	Linux	CentOSStream8	192.168.30.215	m5a.large		Ademanda			-2209161600
+MPF	EC2	mpf-erp-calidad-erpqashana	i-0da153defdb585d1f	Linux	SLES15.1	192.168.30.233	r5.4xlarge	5fffbc0d-a55a-4d8f-a1ff-1af1d1db5be2	PartialUpfront	7/09/2021	6/09/2024	1725580800
+MPF	EC2	mpf-erp-desarrollo-erpdevhana	i-06a67a8d5b68d59de	Linux	SLES15.1	192.168.30.232	r5.4xlarge	d13c43ab-2260-46b1-9396-88f2f9eba3b7	PartialUpfront	9/08/2021	8/08/2024	1723075200
+MPF	EC2	mpf-erp-produccion-erpprdhana	i-0c0c6cec295bb54ec	Linux	SLES15.1	192.168.30.101	r5.8xlarge	21fd9d6e-7bfd-45fb-af2d-1baaf07f6c50	PartialUpfront	25/10/2021	24/10/2024	1729728000
+MPF	EC2	mpf-ws-produccion-mpf-ws01	i-00d334f4c9eb76c0c	Linux	CentOSStream8	192.168.30.216	r5.large	599c635b-d173-44d4-99d1-501f43d5f775	NoUpfront	28/11/2023	27/11/2026	1795737600
+MPF	EC2	mpf-nat-restore	i-0003fb9ec1d6c053a	Linux		192.168.30.222	t3a.micro		Ademanda			-2209161600
+MPF	EC2	mpf-rpa-produccion-mpf-rpa01	i-0f3b3199a54b0aca8	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	192.168.30.252	m5.4xlarge	54cc254f-7499-45f0-b43b-86039e01750e	NoUpfront	6/12/2021	5/12/2024	1733356800
+MPF	EC2	mpf-rm-desarrollo-mpf-rm01	i-0e300991cbd5b01b1	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	192.168.30.140	m5.large	b36a4912-8051-48fe-897c-d7874d7d91e9	NoUpfront	21/12/2023	20/12/2026	1797724800
+MPF	EC2	mpf-egestor-desarrollo-egestor	i-0877fd532a4a956cf	windows		192.168.30.245	m5.large	2038ba17-230d-446f-b360-5b6e939a13c4	PartialUpfront	3/06/2023	2/06/2026	1780358400
+MPF	EC2	mpf-produccion-MPF-RPA02	i-093d6f4252f947ab1	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	192.168.30.253	m5a.xlarge		Ademanda			-2209161600
+MPF	EC2	mpf-ctx-produccion-mpf-ctx01	i-aa107cd7	windows	MicrosoftWindowsServer2008R2Datacenter6.1.7601	192.168.30.50	r4.2xlarge	8a1ee0d6-c8f7-45a9-a023-a5f76b9c77b4	PartialUpfront	10/05/2024	10/05/2025	1746835200
+MPF	EC2	mpf-ctx-produccion-mpf-ctx04	i-9c5cafe7	windows	MicrosoftWindowsServer2008R2Datacenter6.1.7601	192.168.30.139	r4.2xlarge	3fc3e915-036a-4dab-8510-6400b046e3ef	PartialUpfront	10/05/2024	10/05/2025	1746835200
+MPF	EC2	mpf-sql-produccion-sqlserver	i-039bb9a37ab215704	windows		192.168.30.203	r5.xlarge	2e0a8e66-7846-497d-a03a-328ccd7bd38d	PartialUpfront	26/06/2023	25/06/2026	1782345600
+MPF	EC2	mpf-solman-produccion-sapsolman	i-096bba0c0db60b420	windows		192.168.30.100	r5.xlarge		Ademanda			-2209161600
+MPF	EC2	mpf-dc-produccion-mpf-dc	i-0b217a9794c334a27	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	192.168.30.204	t3.large	32f412a5-07d3-4139-9fcc-264c7c5e9e6f	PartialUpfront	2/06/2023	1/06/2026	1780272000
+MPF	EC2	mpf-spo-produccion-mpf-spo01	i-097c6ce7e902cd185	windows		192.168.30.36	t3.xlarge	5d19ddaf-14e2-4a53-b0a1-190ca1e1e2f8	NoUpfront	6/12/2021	24/05/2024	1716508800
+MPF	EC2	mpf-saprouter-desarrollo-saprouter	i-0259f0fe	windows		192.168.30.212	t3a.large	19315792-453b-4e0a-ba68-76b260a06ba4	PartialUpfront	25/10/2021	24/10/2024	1729728000
+MPF	RDS	MPF	dbmpf1	oracle-se2	19.0.0.0.ru-2020-07.rur-2020-07.r1	-	db.r5.large	dbmpf1v4	PartialUpfront	13/02/2024	13/02/2025	1739404800
+NIUBIZ/VISANET	EC2	NoAplica(ServidorRise)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+NUEVOMUNDO	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+NUO/TOTALTEK	EC2	B1APP	bc63ecd4-ad23-4c2b-905a-e80dc160813b	Windows	WindowsServer2019-Datacenter	192.168.50.12	Standard_B16ms	ac197857-dc4f-4e67-bda2-8fc53315fff4	-	10/08/2023	10/08/2024	1723248000
+NUO/TOTALTEK	EC2	B1HANA	05e5f6ae-66c6-44cf-b80a-6077a736637b	Linux	SLES12-sp4-gen2	192.168.50.11	Standard_DS14_v2	3d4f0a7a-7c6e-4ecb-bc2d-c95ed11acbea	-	4/09/2023	4/09/2024	1725408000
+NUTRILECHE(EC)	EC2	NoAplica(Sinaccesos)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+Nutripoint	EC2	nutripoint-nat-desarrollo-nat	i-0a93cd3b94bfeadac	Linux	AmazonLinuxAMI2018.03	172.31.1.20	t3a.micro	c9a7e9f2-1c7e-4b5d-bec5-a408b2e4e5ec	NoUpfront	8/11/2022	7/11/2025	1762473600
+Nutripoint	EC2	nutripoint-sql-producci¢n-b1-sqlserver	i-039dedb5eaca01f18	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.31.1.104	m5.2xlarge	564c17b8-b95d-499e-9a61-9c0c72a080b6	NoUpfront	2/11/2022	1/11/2025	1761955200
+Nutripoint	EC2	nutripoint-rds-producci¢n-b1-client-rds	i-01cb59e8f32e3fc67	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.31.1.27	m5.xlarge	237324d8-52be-4088-8b42-0fe0005495c9	NoUpfront	2/11/2022	1/11/2025	1761955200
+Nutripoint	EC2	nutripoint-bastion-desarrollo-bastion	i-0066b6c341fcb8f0a	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	172.31.1.26	t3a.medium	83e26c30-dc78-49c9-9e87-39caeb0721ca	NoUpfront	8/11/2022	7/11/2025	1762473600
+Osinergmin	EC2	SAPBWPRDNW7.3EHP1SP12-BPC10.0	i-03976f9c32b159e00	Linux	RedHatEnterpriseLinuxServer7.3	10.255.254.135	r4.2xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPGRCDEVNW7.4SP08	i-0e50843df3e63f6ad	Linux	RedHatEnterpriseLinuxServer7.1	10.255.254.164	r4.large		Ademanda			-2209161600
+Osinergmin	EC2	DEVPI-(SAPPIDEVNW7.3EHP1)	i-03b1e78b5d7c764cf	Linux	RedHatEnterpriseLinuxServer7.1	10.255.254.68	r4.large		Ademanda			-2209161600
+Osinergmin	EC2	SAPPIPRDNW7.3EHP1	i-0dfddfad93eb4eda1	Linux	RedHatEnterpriseLinuxServer7.1	10.255.254.166	r4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPGRCPRDNW7.4SP08	i-0e4634aac4d939794	Linux	RedHatEnterpriseLinuxServer7.8	10.255.254.69	r4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	DEVBW-(SAPBWDEVNW7.3EHP1SP12-BPC10.0)	i-014d18d9719eedf00	Linux	RedHatEnterpriseLinuxServer7.1	10.255.254.37	r4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPERPQAS	i-04fb289ee81a1b733	Linux	RedHatEnterpriseLinuxServer7.9	10.255.254.39	r6i.2xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPERPDEV	i-020f1878843e0e581	Linux	RedHatEnterpriseLinuxServer7.9	10.255.254.38	r6i.2xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPERPPRD	i-0b850758d959bbe40	Linux	RedHatEnterpriseLinuxServer7.9	10.255.254.134	r6i.8xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SOLMAN7.2SP04	i-05cd499ef95c26edf	Linux	RedHatEnterpriseLinuxServer7.5	10.255.254.36	r6i.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	NAT-Instance	i-090512e29c845249b	Linux		10.255.254.30	t3a.micro		Ademanda			-2209161600
+Osinergmin	EC2	SAPMOBILEDEV(SMP)	i-0acaf05fa1518e7ab	windows		10.255.254.132	m4.large		Ademanda			-2209161600
+Osinergmin	EC2	SAPMOBILEPRDWindows2012R2(SMP)	i-0ae7ebf2ac0d11f03	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.255.254.40	m4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPBOPRDBOBJ4.1SP05	i-0520741c540593e33	windows		10.255.254.102	r4.2xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPMOBILEPRD-AFARIAWindows2012R2	i-0a96cb1ff36f1b3ed	windows		10.255.254.133	r4.large		Ademanda			-2209161600
+Osinergmin	EC2	SAPMOBILEPRD-RELAY	i-038c28c7322aa8708	windows		10.255.254.100	r4.large		Ademanda			-2209161600
+Osinergmin	EC2	SAPWorkForcePRDManager9.3	i-0a466381bf054e8af	windows		10.255.254.165	r4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPBODEVBOBJ4.1SP05	i-0ae24cc86cb066fff	windows		10.255.254.5	r4.xlarge		Ademanda			-2209161600
+Osinergmin	EC2	SAPROUTER	i-0d72b6a791d454f2e	windows	MicrosoftWindowsServer2008R2Datacenter6.1.7601	10.255.254.4	t2.large		Ademanda			-2209161600
+Osinergmin	EC2	Osinerming-Bastion	i-0a8ee8584fc32df6f	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	10.255.254.9	t2.large		Ademanda			-2209161600
+Overall	EC2	SrvSIFv2.0	i-092c4c395b6cd47d2	Linux		172.31.3.101	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	SrvTableau	i-0a37c1c3ee0476b28	Linux		172.31.5.37	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	qa.livetrade	i-01185e81d47ff5ddd	Linux	Ubuntu20.04	172.31.33.87	t2.medium		Ademanda			-2209161600
+Overall	EC2	desa.livetrade	i-03ca7b2da11fa005a	Linux	Ubuntu20.04	172.31.43.175	t2.small		Ademanda			-2209161600
+Overall	EC2	SrvSigec2.0-II	i-0017e16e6370de165	Linux		172.31.36.110	t2.small		Ademanda			-2209161600
+Overall	EC2	ManteoS&O	i-0d3aa1ddcf47646b4	Linux		172.31.48.180	t2.small		Ademanda			-2209161600
+Overall	EC2	LenovoSchool	i-0a59e2d84629473b5	Linux		172.31.46.191	t2.small		Ademanda			-2209161600
+Overall	EC2	SrvOverDrive	i-0175f1c9604d3c870	Linux		172.31.9.255	t2.xlarge		Ademanda			-2209161600
+Overall	EC2	app.prod.livetradebi.gateway	i-09d50620aa83590d3	Linux	Ubuntu22.04	172.31.36.165	t3a.2xlarge		Ademanda			-2209161600
+Overall	EC2	SrvSigec2.0-HRM-Live	i-0db0b1e4c1418ba28	Linux	Ubuntu18.04	172.31.3.96	t3a.large		Ademanda			-2209161600
+Overall	EC2	EXSrvSigec2.0-HRM-Live	i-0fc8c71b1303526bd	Linux		172.31.15.224	t3a.large		Ademanda			-2209161600
+Overall	EC2	SrvSigec2.0-HRM-Live-Clon	i-0d0c61532c70f0f5c	Linux		172.31.10.163	t3a.large		Ademanda			-2209161600
+Overall	EC2	MKT-EncartesWeb	i-0190ee90f12ac65a6	Linux		172.31.33.127	t3a.large		Ademanda			-2209161600
+Overall	EC2	app.prod.livetrade.easyform	i-043d2272f969d2087	Linux		11.1.0.232	t3a.small		Ademanda			-2209161600
+Overall	EC2	app.prod.livetrade.build	i-041c0f52d0cc3f3e4	Linux		11.1.0.182	t3a.xlarge		Ademanda			-2209161600
+Overall	EC2	TEST-PROD	i-01bb3b95ecae1a89e	Linux		11.1.1.197	t3a.xlarge		Ademanda			-2209161600
+Overall	EC2	"app.prod.livetrade	"	i-0b50b12bdf9552cb5	Linux		11.1.0.155	t3a.xlarge		Ademanda			-2209161600
+Overall	EC2	"app.prod.livetrade	"	i-0e5b1292c8e8edfad	Linux		11.1.1.92	t3a.xlarge		Ademanda			-2209161600
+Overall	EC2	"app.prod.livetrade	"	i-0a7f1bb57f824e5b8	Linux		11.1.1.238	t3a.xlarge		Ademanda			-2209161600
+Overall	EC2	app.prod.marketing	i-0b509a21a122088a2	windows		172.31.1.172	t2.medium		Ademanda			-2209161600
+Overall	EC2	HRMOverall	i-01b208a603318fccb	Linux	Ubuntu18.04	172.31.52.43	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	HRMOverall	i-078dc65b0f3be4c5e	Linux		172.31.12.89	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	EBSColombia	i-0b18f72b5c64ab0ae	Linux		172.31.10.93	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	EBSColombia-Nueva	i-0a3e1faccc67f9b63	Linux		172.31.13.196	t2.2xlarge		Ademanda			-2209161600
+Overall	EC2	HRMDesa	i-05c20bba9f059c6c6	Linux	Ubuntu18.04	172.31.41.94	t2.large		Ademanda			-2209161600
+Overall	EC2	HRMBI	i-0f26dc6e1d516dd8a	Linux		172.31.42.212	t2.medium		Ademanda			-2209161600
+Overall	EC2	OdooCol-Dar-Baja	i-09eafa67e5ef57e44	Linux		172.31.27.33	t2.medium		Ademanda			-2209161600
+Overall	EC2	OdooCol-Desa	i-0ca88e46b9c8790e3	Linux		172.31.17.86	t2.medium		Ademanda			-2209161600
+Overall	EC2	Overall-Kardex-Desa	i-007e824ab613884e2	Linux		172.31.45.38	t2.medium		Ademanda			-2209161600
+Overall	EC2	OverAllHR	i-0b9e57692b8983578	Linux		172.31.26.138	t2.medium		Ademanda			-2209161600
+Overall	EC2	OverrallPage	i-0b1681fe51c6c7542	Linux		172.31.33.106	t2.micro		Ademanda			-2209161600
+Overall	EC2	pruebaborrarr	i-0ea5e2241884a5cca	Linux		172.31.13.143	t2.micro		Ademanda			-2209161600
+Overall	EC2	hrmgo-us-east-2-ec2-dev-bastion-host	i-07056c9644d99f203	Linux		10.0.53.44	t2.micro		Ademanda			-2209161600
+Overall	EC2	hrmgo-us-east-2-ec2-prod-bastion-host	i-08ab7ebd91270d484	Linux		10.0.52.41	t2.micro		Ademanda			-2209161600
+Overall	EC2	Overallweb-Instance	i-0b14dc37605027255	Linux		172.31.41.137	t2.small		Ademanda			-2209161600
+Overall	EC2	Jobportal-instance	i-0b81fa6245f4c778d	Linux		172.31.40.86	t2.small		Ademanda			-2209161600
+Overall	EC2	JobPortal2-New	i-0418337d49df0e186	Linux		172.31.6.90	t2.small		Ademanda			-2209161600
+Overall	EC2	HRMDesACopia	i-030bf118bf26fc02e	Linux		172.31.35.120	t2.xlarge		Ademanda			-2209161600
+Overall	EC2	PortalEmpleo	i-096248581a152adf2	Linux		172.31.44.198	t3.small		Ademanda			-2209161600
+Overall	EC2	Overrall_Page	i-04550d68acc20c66f	Linux		172.31.36.200	t3.small		Ademanda			-2209161600
+Overall	RDS	datawarehouse	datawarehouse-overall-instance-1	aurora-mysql	5.7.mysql_aurora.2.11.2	-	db.t3.small		Ademanda			-2209161600
+Overall	RDS	livetrade	db-prod-livetrade-8-cluster	aurora-mysql	5.7.mysql_aurora.2.11.2	-	db.r5.2xlarge		NoRenovado			-2209161600
+Overall	RDS	livetradeBI	livetrade-prod-bi	mysql	5.7.44	-	db.t3.medium		Ademanda			-2209161600
+Overall	RDS	livetrade	reader-8	aurora-mysql	5.7.mysql_aurora.2.11.2	-	db.r5.2xlarge		Ademanda			-2209161600
+Overall	RDS		application-autoscaling-010bb848-e5d1-4b0e-80a9-6351402a1f9c	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.t3.medium		Ademanda			-2209161600
+Overall	RDS		database-1-instance-1	aurora-mysql	5.7.mysql_aurora.2.11.1	-	db.r5.large		Ademanda			-2209161600
+Overall	RDS		hrm-database-desa	mysql	8.0.35	-	db.t3.micro		Ademanda			-2209161600
+Overall	RDS		hrmdesa-instance-1	aurora-mysql	5.7.mysql_aurora.2.11.1	-	db.t3.large		Ademanda			-2209161600
+Overall	RDS	hrm_go	hrmgo-us-east-2-stack-dev-databaseclusterreader5c2-smfpsd1zjyvv	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.serverless		Ademanda			-2209161600
+Overall	RDS	hrm_go	hrmgo-us-east-2-stack-dev-databaseclusterwriterbfb-y7d0vjcvlcsr	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.serverless		Ademanda			-2209161600
+Overall	RDS	hrm_go	hrmgo-us-east-2-stack-pro-databaseclusterreader5c2-yocuexjmitm8	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.serverless		Ademanda			-2209161600
+Overall	RDS	hrm_go	hrmgo-us-east-2-stack-pro-databaseclusterwriterbfb-l8wqcwdaxqht	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.serverless		Ademanda			-2209161600
+Overall	RDS		pbmysql1	mysql	8.0.35	-	db.t2.micro		Ademanda			-2209161600
+Overall	RDS		pbmysql2	mysql	8.0.35	-	db.t2.micro		Ademanda			-2209161600
+Overall	RDS		portalempleo-instance-1	aurora-mysql	8.0.mysql_aurora.3.05.2	-	db.t3.medium		Ademanda			-2209161600
+Overall	RDS		portaloverall-instance-1	aurora-mysql	5.7.mysql_aurora.2.11.2	-	db.t3.small		Ademanda			-2209161600
+Panorama	EC2	S/4HANAQAS	i-066e984a70f7e6788	Linux	SLES15.4	100.69.64.100	r6i.24xlarge		Ademanda			-2209161600
+Panorama	EC2	PODEV	i-0d7a31d3066383d2a	Linux		100.69.93.178	r6i.large		Ademanda			-2209161600
+Panorama	EC2	POQAS	i-0518e55991d3211e5	Linux		100.69.69.21	r6i.large		Ademanda			-2209161600
+Panorama	EC2	SOLMAN	i-07043a04f7a08e7d5	Linux		100.69.92.7	r6i.xlarge	802d8354-b1c6-4153-afe1-6bde3fadf430	NoUpfront	24/04/2023	23/04/2026	1776902400
+Panorama	EC2	POPRD	i-06fe167db71b7f9a6	Linux		100.69.65.237	r6i.xlarge		Ademanda			-2209161600
+Panorama	EC2	NAT-Instance	i-0f224f5db19990fdc	Linux		100.69.11.86	t3a.micro	b8656a4b-7e18-4799-9e4d-bd88db17a82a	AllUpfront	12/04/2023	11/04/2026	1775865600
+Panorama	EC2	S/4HANAPRD	i-04f39b33b05ab73ec	Linux	SLES15.4	100.69.70.46	x1.16xlarge	9e0129b3-3cb8-44ef-ab45-4940c0a7ea22	NoUpfront	24/04/2023	23/04/2026	1776902400
+Panorama	EC2	S/4HANADEV	i-09dfc262c80d0e8b1	Linux	SLES15.4	100.69.58.42	x2iedn.xlarge		Ademanda			-2209161600
+Panorama	EC2	FIORIDEV	i-0662a4a605ef75274	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	100.69.89.217	r6i.large		Ademanda			-2209161600
+Panorama	EC2	FIORIPRD	i-0a19766cd45c90d0d	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	100.69.93.245	r6i.xlarge	9538a794-fd28-4e86-8a88-948077ad5bd6	NoUpfront	24/04/2023	23/04/2026	1776902400
+Panorama	EC2	SAPRouter	i-06e9f912cdb60e198	windows		100.69.4.249	t3a.large	0b99e937-0ee4-47c4-81dd-291ab1f7f37f	NoUpfront	10/04/2023	9/04/2026	1775692800
+PardosChicken	EC2	pardoschicken-erp-produccion-saperpprd	i-06aababb800aeeba6	Linux	SLES12.5	172.16.4.21	r5.4xlarge	217090a6-ea3b-492e-afd9-cb4b1dd5b4c2	PartialUpfront	1/07/2023	6/12/2025	1764979200
+PardosChicken	EC2	pardoschicken-erp-desarrollo-srverpdev-sap_erp_dev	i-04877bb03bce035ff	Linux	SLES12.5	172.16.4.68	r5.large	9ecf0929-b414-481f-a1b0-f5bdde637d78	AllUpfront	7/12/2022	6/12/2025	1764979200
+PardosChicken	EC2	pardoschicken-po-desarrollo-sappodev	i-016ee5415122b2c66	Linux		172.16.4.85	r5.large		Ademanda			-2209161600
+PardosChicken	EC2	pardoschicken-po-produccion-sappoprd	i-04c164052c5725c7b	Linux	SLES12.5	172.16.4.36	r5.xlarge	38f8a769-6268-4433-84a0-ae9c3447e603	PartialUpfront	7/12/2022	6/12/2025	1764979200
+PardosChicken	EC2	pardoschicken-solman-produccion-solman	i-0cbbb0ea20a54a969	Linux		172.16.4.20	r5.xlarge	e7ef7111-63ef-4e3b-865f-18af492a74b4	PartialUpfront	9/05/2023	8/05/2026	1778198400
+PardosChicken	EC2	pardoschicken-erp-calidad-saperpqas_rest	i-031b8b80d26093966	Linux	SLES12.5	172.16.4.69	r5.xlarge		Ademanda			-2209161600
+PardosChicken	EC2	pardoschicken-nat-desarrollo-nat	i-52d2f280	Linux	AmazonLinuxAMI2018.03	172.16.4.52	t3a.micro	3f1f3da8-538c-4931-a0c4-8372bc537217	AllUpfront	31/03/2023	30/03/2026	1774828800
+PardosChicken	EC2	pardoschicken-saprouter-desarrollo-pchsaprouter-(saprouter)	i-cd049966	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	172.16.4.4	t3.large	29539aaa-fd60-47a1-88f3-a366fba27ea9	AllUpfront	7/12/2022	6/12/2025	1764979200
+PCOEPERU	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+PETROPERU	EC2	veeam-backup-prd	d756e391-31ac-46fc-b79c-0563bde7d5aa	Windows	office365backupveeamoffice365backup	10.0.2.4	Standard_D8s_v4		Ademanda			-2209161600
+PETROPERU	EC2	veeam-backup-prd2	b5923907-9c20-4ffd-9a36-8183dc4d8a24	Windows	WindowsServer2019-datacenter-gensecond	10.0.2.6	Standard_D8s_v4		Ademanda			-2209161600
+PICA	EC2	SAPROUTER	15bbc912-71bb-4ec4-820d-e9ecdd18c2bb	Windows	WindowsServer2016-Datacenter	192.168.200.7	Standard_B2ms	f85ba217-21b0-4259-8744-3031ed429a18	-	5/05/2023	5/05/2026	1777939200
+PICA	EC2	FIORIDEVnew	2547f0d1-df65-4f5d-b75a-f7860a3e3bd1	Linux		192.168.200.8	Standard_E2ds_v5		Ademanda			-2209161600
+PICA	EC2	pcafioriprd	ba33ad24-db5b-4d6e-bd53-eec349ccb137	Linux	sles-15-sp1-basicgen2	192.168.200.12	Standard_E4ds_v5	f36e2c3f-587b-48d9-83b4-edb0515a9f4e	-	5/05/2023	5/05/2026	1777939200
+PICA	EC2	SOLMAN	2b0ac225-cb2e-4859-bbe1-6b7a10569399	Linux	sles-15-sp1-basicgen1	192.168.200.9	Standard_E4ds_v5		Ademanda			-2209161600
+PICA	EC2	sap-prd-ctgv2	2c897e6b-e73c-48e9-abb2-4700505a3f3e	Linux		10.0.0.4	Standard_M32ls	2a51389b-6d2c-4ef5-b21e-cb8c0f719e5f	-	5/05/2023	5/05/2026	1777939200
+PICA	EC2	pcas4hanqas	b6019440-32a0-45ac-b715-01f144a924c8	Linux		192.168.200.4	Standard_M32ls	63d06e5c-d3a2-46b6-9428-cc1df1ab7c34	-	9/05/2023	9/05/2026	1778284800
+PICA	EC2	s4hanadev1	fdd4600f-2886-4a3c-90dc-e51b28ca15c1	Linux	sles-12-sp5-basicgen1	192.168.200.6	Standard_M32ls	86f0b005-121b-42cc-8f72-15cfcc67a9ec	-	25/04/2023	25/04/2026	1777075200
+PICA	EC2	pcas4hanprd	d86651ee-7614-404b-9ff4-afc4103a73d4	Linux	sles-15-sp1-basicgen2	192.168.200.11	Standard_M64ls	379c9a02-3a35-47ce-9f1a-3950a44a7b59	-	25/04/2023	25/04/2026	1777075200
+PIERIPLAST	EC2	NoAplica(Sinservidores)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+Platanitos	EC2	platanitos-erp-desarrollo-saperpdev	i-07de1d36	Linux		100.200.2.6	r4.large		Ademanda			-2209161600
+Platanitos	EC2	platanitos-erp-produccion-saperpprd	i-ae876f36	Linux	RedHatEnterpriseLinuxServer7.2	100.200.1.7	r4.large		Ademanda			-2209161600
+Platanitos	EC2	platanitos-sap-desarrollo-sappidevnw7.4v2	i-038b6b483d3159552	Linux		100.200.1.6	r4.large		Ademanda			-2209161600
+Platanitos	EC2	platanitos-erp-calidad-saperpqas	i-04a00ecb8e9de8f71	Linux		100.200.2.81	r4.xlarge		Ademanda			-2209161600
+Platanitos	EC2	platanitos-sap-produccion-sappiprdnw7.4-v2	i-0294202484bdc0579	Linux		100.200.2.5	r4.xlarge		Ademanda			-2209161600
+Platanitos	EC2	platanitos-nat-desarrollo-nat	i-06ccab4127a1c0415	Linux	AmazonLinuxAMI2018.03	100.200.1.182	t3a.micro		Ademanda			-2209161600
+Platanitos	EC2	platanitos-navision-produccion-marte-navision	i-0332a987176ce5df2	windows		100.200.6.10	r4.xlarge		Ademanda			-2209161600
+Platanitos	EC2	platanitos-router-desarrollo-saprouter	i-63525a99	windows		100.200.1.120	t2.medium		Ademanda			-2209161600
+Platanitos	EC2	platanitos-ftp-produccion-prd_ftp	i-a9c87287	windows		100.200.1.148	t2.small		Ademanda			-2209161600
+PLATINUMCORP	EC2	vm-AD3	38a2e9c2-fd31-40c3-8444-1f6936214911	Windows	WindowsServer2019-datacenter-gensecond	10.0.1.4	Standard_B2s	70fb4cec-12a6-4cdb-b861-ddb26fec01bb	-	4/07/2022	4/07/2025	1751587200
+PLATINUMCORP	EC2	PTSRVWEB01	c90e74d6-6a28-48cf-84a0-c455b1c02f8c	Windows		10.0.1.10	Standard_D2s_v5	dc39e582-261e-4e5d-983c-918703ea2070	-	4/07/2022	4/07/2025	1751587200
+PLATINUMCORP	EC2	PTSRVWEB02	16ec9398-d7b0-40f8-800d-448b64cbd25a	Windows		10.0.1.9	Standard_D2s_v5	dc39e582-261e-4e5d-983c-918703ea2070	-	4/07/2022	4/07/2025	1751587200
+PLATINUMCORP	EC2	vm-B1-HANA	e59f39a7-6dc9-4dce-a248-a647f431036f	Linux	sles-15-sp3-basicgen2	10.0.1.8	Standard_DS14_v2	4a1f680e-9272-4760-9ec2-f6dad6ab3770	-	17/06/2022	17/06/2025	1750118400
+PLATINUMCORP	EC2	vm-RDS-Client	9e1a35bd-2f11-40dd-90d1-d10106442f93	Windows	WindowsServer2019-datacenter-gensecond	10.0.1.6	Standard_E8ds_v4	cd549b7d-fb08-4488-830c-9941f450f556	-	17/06/2022	17/06/2025	1750118400
+PMPHOLDING	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+PROMELSA	EC2	NoAplica(Proofpoint)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+PROMHIL	EC2	NoAplica(Bitdefender)							-			-2209161600
+QUALYS	EC2	saprouter-v2	e68af128-a7f1-47db-876b-6b7142eb8b79	Windows		172.15.1.4	Standard_B2ms	8b0c4c4b-0db2-46b0-b95d-bd1a0d82e53f	-	22/07/2021	22/07/2024	1721606400
+QUALYS	EC2	cnrerpdev03	45583b73-ff9b-4d98-875e-16bea71f6065	Linux		172.15.4.7	Standard_E2s_v4	6544f30c-04ce-4917-8a14-3e6513ef10a6	-	1/09/2021	1/09/2024	1725148800
+QUALYS	EC2	cnrerpqas	4f47ffab-4442-4355-9022-19da218490bd	Linux		172.15.6.4	Standard_E2s_v4		Ademanda			-2209161600
+QUALYS	EC2	cnrerpprd	be4a1d68-1c09-4346-827f-f55e6b6d625f	Linux		172.15.2.5	Standard_E4s_v4		Ademanda			-2209161600
+QUALYS	EC2	cnrsolman2	7e3b413c-be24-4a14-83ff-43f2973f947b	Linux		172.15.2.6	Standard_E4s_v4		Ademanda			-2209161600
+QUALYS	EC2	cnrerpprd-clon	6c69f86f-0dfc-4af2-9437-389fc607edb0	Linux		172.15.7.5	Standard_E8s_v4		Ademanda			-2209161600
+QUALYS	EC2	cnrerpqas-clon	8a96b749-a879-4d12-a890-c026b1b2f6f3	Linux		172.15.7.6	Standard_E8s_v4		Ademanda			-2209161600
+QuimicosGoicochea	EC2	quimicosgoicochea-s4hana-calidad-qass4hana	i-09f291085abca9ad0	Linux	SLES12.5	192.168.100.74	r6i.4xlarge		Ademanda			-2209161600
+QuimicosGoicochea	EC2	quimicosgoicochea-s4hana-desarrollo-devs4hana	i-089119a101da18f0c	Linux	SLES12.5	192.168.100.39	r6i.4xlarge		Ademanda			-2209161600
+QuimicosGoicochea	EC2	quimicosgoicochea-s4hana-producci¢n-prds4hana	i-0f8db2d34b6a4e513	Linux	SLES12.5	192.168.100.84	r6i.8xlarge	edaea233-282e-4d81-891f-95a17a9a5529	PartialUpfront	16/11/2023	15/11/2026	1794700800
+QuimicosGoicochea	EC2	quimicosgoicochea-nat-prd-nat	i-0d068ac562b217afb	Linux	AmazonLinuxAMI2018.03	192.168.100.14	t3a.micro	7b319d9b-99bd-468b-a0da-5c0c3dfe5827	AllUpfront	18/09/2023	17/09/2026	1789603200
+QuimicosGoicochea	EC2	quimicosgoicochea-fiori-producci¢n-prdfiori	i-0cf194a9a88360b58	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	192.168.100.61	r6i.large	09ad29d5-42a1-4205-b1ae-390fa00f44f8	PartialUpfront	16/11/2023	15/11/2026	1794700800
+QuimicosGoicochea	EC2	quimicosgoicochea-solman-producci¢n-solman	i-0c77fc202ef2d14fa	windows		192.168.100.25	r6i.xlarge		Ademanda			-2209161600
+QuimicosGoicochea	EC2	quimicosgoicochea-saprouter-producci¢n-saprouter	i-043ebdbc74eb87d1c	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	192.168.100.9	t3a.large	584f12c9-9641-4521-99a1-e74a9fb9f52e	PartialUpfront	2/11/2023	1/11/2026	1793491200
+QuimicosGoicochea	EC2	quimicosgoicochea-fiori-desarrollo-devfiori	i-03c8496e610a8c3d0	windows		192.168.100.6	t3a.large		Ademanda			-2209161600
+RANSA	EC2	NoAplica(Sinservidores)							-			-2209161600
+RashPeru	EC2	rashperu-server-producci¢n-moodleserver-New	i-076d358f1e897649a	Linux	Ubuntu18.04	10.250.250.23	r5.large	dcf0f52e-b593-47e4-9ac7-32b5e68cb9ad	NoUpfront	11/10/2021	10/10/2024	1728518400
+RashPeru	EC2	rashperu-bastion-desarrollo-bastion	i-06f9533376fe37ae9	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.250.250.12	t3a.small	5ad6fa04-382b-454e-b8d5-02c519f60226	NoUpfront	11/10/2021	10/10/2024	1728518400
+SAASA	EC2	saasa-prod-ad	4aec36c8-cd25-4751-8e19-a7e72cb73243	Windows	WindowsServer2016-datacenter-gensecond	172.16.0.4	Standard_B2ms	3df29857-05d0-4f5c-9698-638284292068	-	1/07/2022	1/07/2025	1751328000
+SAASA	EC2	SAASA-PROD-EGES	c70e52c3-88bb-48d1-9399-f9e03cb50cf8	Windows		172.16.0.6	Standard_B2ms	97bfa932-100f-42ec-b01a-1fdba200a0a8	-	3/05/2022	3/05/2025	1746230400
+SAASA	EC2	saasa-prod-comex	a8605e26-c091-4faf-944f-3803c9be9167	Windows	WindowsServer2016-datacenter-gensecond	172.16.0.5	Standard_B2s	400c1374-9202-4bca-8224-b00e6af654f6	-	3/05/2022	3/05/2025	1746230400
+SANCHARBEL	EC2	S10-BD-Sancharbel	6818318c-3035-433f-9edb-e51893f5acb8	Windows	WindowsServer2019-Datacenter-smalldisk	192.168.2.5	Standard_D4_v4	e7bc227c-535c-4978-ad1d-5ee53923dcb2	-	31/01/2022	31/01/2025	1738281600
+SANCHARBEL	EC2	S10-App-Sancharbel	4dc9c76c-c41e-4d1c-9d11-e66358364240	Windows	WindowsServer2019-Datacenter-smalldisk	192.168.2.4	Standard_E4_v4	db238c54-52c4-4cce-b53e-0e596517efed	-	31/01/2022	31/01/2025	1738281600
+SanMartin	EC2	sanmartin-vpn-prd-smvpn	i-02b63920dad204ad5	Linux	CentOSLinux7.6.1810	10.10.10.107	c5.xlarge	13130653-e235-4c8b-bd7d-4a69a0c836c2	PartialUpfront	10/04/2024	10/04/2025	1744243200
+SanMartin	EC2	sanmartin-solman-prd-solman	i-03772b881250de8e8	Linux		10.10.10.21	r4.xlarge		Ademanda			-2209161600
+SanMartin	EC2	sanmartin-erp-prd-saperpprdhanas4	i-0a4060fe56d825596	Linux	SLES15.5	10.10.10.20	r5.12xlarge	884b78e9-d6f9-46bd-938f-b67d10aaeae9	NoUpfront	2/05/2022	1/05/2025	1746057600
+SanMartin	EC2	sanmartin-erp-prd-sandbox	i-0fbb453814a8359bf	Linux	SLES15.5	10.10.10.27	r5.12xlarge		Ademanda			-2209161600
+SanMartin	EC2	sanmartin-erp-dev-saperpdevhanas4	i-0b345220f25c166b1	Linux	SLES15.5	10.10.10.71	r5.4xlarge	535479e6-52f0-4abc-aa31-b63ff3420be7	NoUpfront	2/05/2022	1/05/2025	1746057600
+SanMartin	EC2	sanmartin-erp-qas-saperpqashanas4	i-058050e8eacdc8e10	Linux	SLES15.5	10.10.10.68	r5.4xlarge	e67cefbd-ce85-4bb2-8190-1c48535d24db	NoUpfront	2/05/2022	1/05/2025	1746057600
+SanMartin	EC2	sanmartin-po-dev-sappodev	i-026718240f61e3225	Linux	SLES15.4	10.10.10.86	r5.large	d93cc0cd-fdf4-4385-8df7-3508e4cbceb9	NoUpfront	2/05/2022	1/05/2025	1746057600
+SanMartin	EC2	sanmartin-po-prd-sappoprd	i-054cccb2a3dd3536b	Linux	SLES15.4	10.10.10.39	r5.xlarge	f7cde831-cd19-4231-a050-6cdc7aeba195	NoUpfront	2/05/2022	1/05/2025	1746057600
+SanMartin	EC2	sanmartin-nat-prd-nat	i-9da29d2e	Linux	AmazonLinuxAMI2018.03	10.10.10.5	t3a.micro	8652d469-b4e0-4830-a471-78ee85bd23dc	NoUpfront	3/05/2022	2/05/2025	1746144000
+SanMartin	EC2	sanmartin-fiori-dev-sapfiori-dev	i-e2cf74a7	windows		10.10.10.61	m4.large		Ademanda			-2209161600
+SanMartin	EC2	sanmartin-fiori-prd-sapfiori-prd	i-9cff7c06	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.10.10.7	m4.xlarge		Ademanda			-2209161600
+SanMartin	EC2	sanmartin-msm-2personnel-prd-msm-2personnel	i-0018588de491e8d7c	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.10.10.13	m5.xlarge	b3892010-2f75-4858-9a82-2555b9a4df65	PartialUpfront	13/02/2024	12/02/2025	1739318400
+SanMartin	EC2	sanmartin-msm-warehouse-prd-msm-warehouse	i-0aa67f2e5f592380f	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.10.10.125	m5.xlarge	a7174175-a960-4b52-a907-fcdc9f197a4b	PartialUpfront	10/04/2024	10/04/2025	1744243200
+SanMartin	EC2	sanmartin-router-dev-saprouter	i-1d563785	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.10.10.9	t3a.large	5c24acf9-6479-4d80-8d19-1409dabbd2c3	NoUpfront	2/05/2022	1/05/2025	1746057600
+SantaClara	EC2	erpprd-santa_clara	i-05e5970df1f81b06b	Linux	SLES15.5	10.10.20.154	r6i.8xlarge	68d0c4fc-cf13-4d64-a6f7-991d9302902b	NoUpfront	12/02/2024	11/02/2027	1802304000
+SantaClara	EC2	nat-instance-santa-clara	i-0645bfef8ac8a26f5	Linux	AmazonLinuxAMI2018.03	10.10.20.13	t3a.micro	3f91758a-511a-49c9-b65c-3c696cccb724	NoUpfront	31/01/2024	30/01/2027	1801267200
+SantaClara	EC2	dev-qas-santa_clara	i-027339f45abce35b4	Linux	SLES15.5	10.10.20.140	x2iedn.2xlarge	0cc68b11-5127-468e-87e5-8ff6f0a944f2	NoUpfront	2/02/2024	1/02/2027	1801440000
+SantaClara	EC2	saprouter-santa_clara	i-098d2878e70e6992d	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	10.10.20.8	t3a.large	6a8e3c91-265b-4f9f-92dd-7ff2efd2d0d3	NoUpfront	31/01/2024	30/01/2027	1801267200
+SeidorConsulting	EC2	WEBSolmanValidarDHELFER	i-d4b81686	Linux		10.249.12.10	m1.small		Ademanda			-2209161600
+SeidorConsulting	EC2	S4HANA1909DEVCERTIF-OPERACIONESSEIDOR	i-0ec4ee901a56ffc61	Linux		10.249.1.23	r5.4xlarge		Ademanda			-2209161600
+SeidorConsulting	EC2	S4HANA2020DEVCERTIF-OPERACIONESSEIDORSUSE15	i-06fb21ab1e686b837	Linux	SLES15.2	10.249.1.26	r5.4xlarge		Ademanda			-2209161600
+SeidorConsulting	EC2	PRDHANA	i-066bd6d67bb8bb57e	Linux		10.249.9.202	r5.4xlarge		Ademanda			-2209161600
+SeidorConsulting	EC2	S4HANA1909QASCERTIF-OPERACIONESSEIDOR	i-0304afa71bd0e161f	Linux	SLES15.3	10.249.1.14	r5.8xlarge		Ademanda			-2209161600
+SeidorConsulting	EC2	S4HANA2022FP01DEVCERTIF-OPERACIONESSEIDORSUSE15SP4v2	i-0055d55d6c2750fc2	Linux	SLES15.4	10.249.1.30	r6i.8xlarge		Ademanda			-2209161600
+SeidorConsulting	EC2	NAT-Paraquelosservidorestengansalidainternet	i-0fb6cc25	Linux	AmazonLinuxAMI2013.09	10.249.9.100	t1.micro		Ademanda			-2209161600
+SeidorConsulting	EC2	BASTION(PRODUCTIVO)-MEDIOS+OTROSERVICIOS	i-0f7a8830c8bfb488a	windows		10.249.12.85	r4.large		Ademanda			-2209161600
+SeidorConsulting	EC2	SEIDORSAPROUTERPRD(Productivo)	i-bca35940	windows	MicrosoftWindowsServer2012R2Standard6.3.9600	10.249.9.194	t3.large		Ademanda			-2209161600
+SERVIENTREGA	EC2	SAPROUTER	4196ca59-bc97-42c9-b129-ce0fccfd0900	Windows	WindowsServer2019-datacenter-gensecond	172.33.33.4	Standard_B2ms	988de2d4-d23b-4fe0-9b30-ceeac0ef1c00	-	24/12/2022	24/12/2025	1766534400
+SERVIENTREGA	EC2	srvs4dev	34a25f58-3ccb-4553-bbc9-9ac7480c1526	Linux	sles-15-sp3-basicgen2	172.33.33.5	Standard_E16s_v5	963219b0-5e23-4999-bf51-af7961bf7888	-	24/12/2022	24/12/2025	1766534400
+SERVIENTREGA	EC2	srvs4prd2	74f09f84-e6d6-4a10-a67b-a322095272f9	Linux	sles-15-sp4-basicgen1	172.33.33.103	Standard_E32s_v5	56752540-c944-40cb-bc0f-dd73ee16f2e2	-	10/01/2023	10/01/2026	1768003200
+SERVIENTREGA	EC2	srvs4qas	110372e0-fbcf-40f4-80f4-29af9c24c770	Linux	sles-15-sp4-basicgen1	172.33.33.101	Standard_E32s_v5	1598bb3e-3ef7-459f-8d70-17b5c63694cd	-	20/01/2023	20/01/2026	1768867200
+SERVIENTREGA	EC2	srvsolman	f16efb30-9267-4b28-829c-7d060ccbeaa7	Linux	sles-15-sp4-basicgen1	172.33.33.100	Standard_E4s_v5	678d13b5-87b3-4681-a4f6-562138e8a66a	-	29/12/2022	29/12/2025	1766966400
+Sica	EC2	sica-fiori-dev-fioridev	i-00a2dfcdca5bc96ad	Linux		172.16.2.136	r5.large		Ademanda			-2209161600
+Sica	EC2	sica-fiori-prd-fioriprd	i-086fd20223f0d86b6	Linux		172.16.4.171	r5.xlarge		Ademanda			-2209161600
+Sica	EC2	sica-s/4-dev-s4hanadev	i-0d2060b53d6ff1a8a	Linux	SLES15.4	172.16.2.89	r6i.4xlarge		Ademanda			-2209161600
+Sica	EC2	sica-s/4-qas-s4hanaqas	i-03e524fd551603ad8	Linux	SLES15.4	172.16.3.174	r6i.4xlarge		Ademanda			-2209161600
+Sica	EC2	sica-s/4-prd-s4hanaprd	i-04b1f80eac7d81c71	Linux	SLES15.4	172.16.4.85	r6i.8xlarge	79cd0af1-1403-4e19-8bd5-93cc9c3fc11a	PartialUpfront	30/01/2024	29/01/2025	1738108800
+Sica	EC2	sica-solman-prd-solmann	i-08c26357b3f3d416c	Linux		172.16.4.224	r6i.xlarge		Ademanda			-2209161600
+Sica	EC2	sica-nat-prd-nat	i-08cc31968e3945b46	Linux	AmazonLinuxAMI2017.09	172.16.5.37	t3a.micro	715f933e-ccf0-46a1-9634-9ad199430215	PartialUpfront	19/01/2024	18/01/2025	1737158400
+Sica	EC2	sica-router-dev-saprouter	i-03fce0deff0aaef85	windows		172.16.5.71	t3a.large	76be5283-cbf2-46ad-ad23-633b842fe02a	PartialUpfront	19/01/2024	18/01/2025	1737158400
+Sole	EC2	sole-erp-produccion-erpprd	i-016b6e5c16f1b9491	Linux	RedHatEnterpriseLinuxServer7.5	10.10.2.99	r5.2xlarge	8ba9aa2e-46ba-4ab0-bfc3-aa21dfa27200	PartialUpfront	23/06/2021	22/06/2024	1719014400
+Sole	EC2	sole-erp-produccion-erpprd-SANDBOX	i-0617ccb14b69173e9	Linux		10.10.6.18	r5.2xlarge		Ademanda			-2209161600
+Sole	EC2	sole-erp-calidad-erpqas	i-01f287150ed3e43e5	Linux	RedHatEnterpriseLinuxServer7.5	10.10.1.52	r5.xlarge	2200e919-d95c-4b7d-a9d5-821800d37dd3	PartialUpfront	5/07/2021	4/07/2024	1720051200
+Sole	EC2	sole-solman-produccion-solman	i-098079328a6762138	Linux		10.10.1.104	r5.xlarge	a855674c-a42a-43d3-ae6e-fd417b2b8aa9	PartialUpfront	23/06/2021	22/06/2024	1719014400
+Sole	EC2	sole-erp-desarrollo-erpdev	i-01b1e1ee1e6faee58	Linux	RedHatEnterpriseLinuxServer7.5	10.10.1.84	r5.xlarge		Ademanda			-2209161600
+Sole	EC2	sole-nat-desarollo-nat	i-0bbbc2f06dab830df	Linux	AmazonLinuxAMI2017.09	10.10.3.146	t3a.micro	607420f1-8fec-44f8-8055-786f6586183f	PartialUpfront	6/07/2021	5/07/2024	1720137600
+Sole	EC2	sole-router-desarrollo-saprouter	i-094c78b9e3b768432	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.10.3.26	t3a.large	b7d6594b-ff3b-4194-a5d8-3643119d0a98	PartialUpfront	23/06/2021	22/06/2024	1719014400
+STRACON	RDS	stracon-wordpress-prd.mysql.database.azure.com	23ab9153-7110-4526-b3b0-53467f374313	MySQL	8		GeneralPurpose,D2ds_v4,2vCores,8GiBRAM,32storage,396IOPS	473b74ea-0ade-448f-ae3f-ed1e18d945d6	-	26/06/2023	26/06/2024	1719360000
+STRACON	EC2	strcnsaprouter	ee947912-8ba3-4c03-80e1-e6579cc8366a	Windows	WindowsServer2016-Datacenter	10.104.2.5	Standard_B2ms	cb2a2d78-27db-4d3f-8d9c-e6c036b43fbb	-	13/08/2021	13/08/2024	1723507200
+STRACON	EC2	wordpress-prd-2	0f39289c-a662-45db-b724-3a36ae779a93	Linux	0001-com-ubuntu-server-focal20_04-lts	10.1.0.5	Standard_D2s_v5	08fe71d8-1393-4dda-8cce-bd5610b3f764	-	20/06/2023	20/06/2024	1718841600
+STRACON	EC2	stns4dev	c564388d-3ebf-48ca-9b65-f3cf872fce7a	Linux		10.104.4.4	Standard_E16s_v4	a8733211-f0ca-4edb-8ea6-a0d0084f8438	-	13/08/2021	13/08/2024	1723507200
+STRACON	EC2	stns4qas1	e8864517-d764-454f-8646-b08b6f90022e	Linux	sles-15-sp3-basicgen1	10.104.6.4	Standard_E32s_v4	eea738d5-8b97-4893-98de-adca4049e21e	-	25/01/2023	25/01/2026	1769299200
+STRACON	EC2	stns4prd	c47e6273-c9b3-4e14-9602-503fa64e59b6	Linux		10.104.2.7	Standard_E48ds_v4	29040413-b109-4b29-bb69-79f6f4bfa675	-	17/11/2023	17/11/2026	1794873600
+STRACON	EC2	stns4prd-clon	8676ddfc-ff3b-4a89-b854-393e2fc9ad50	Linux		10.104.0.4	Standard_E48ds_v4		Ademanda			-2209161600
+STRACON	EC2	stnsolman	9b14974e-c040-4a50-9891-5f502ce8489a	Linux		10.104.2.4	Standard_E4s_v4		Ademanda			-2209161600
+Talsa	EC2	talsa-hfpe-producci¢n-svprdhfpe	i-01152a110aeffbdb5	Linux	AmazonLinux2	10.45.0.165	m5.xlarge	5b19b7d6-e094-4770-a497-215532b82ddb	NoUpfront	31/05/2024	31/05/2025	1748649600
+Talsa	EC2	talsa-s/4hana-calidad-srvs4qas-(s/4hanaqas)	i-05dad1a30ecf4264d	Linux	SLES15.3	10.45.4.163	r5.4xlarge		Ademanda			-2209161600
+Talsa	EC2	talsa-s/4hana-desarrollo-srvs4dev-(s/4hanadev)	i-08bbd64c1756ed6c3	Linux	SLES15.3	10.45.3.95	r5.4xlarge		Ademanda			-2209161600
+Talsa	EC2	talsa-s/4hana-producci¢n-srvs4prd-(s/4hanaprd)	i-02bc87dbcb31f9c36	Linux	SLES15.3	10.45.1.154	r5.8xlarge	e6cba238-5260-440a-823b-0ae060292013	PartialUpfront	11/03/2022	10/03/2025	1741564800
+Talsa	EC2	talsa-sapsolman-producci¢n-sapsolman	i-0107ffc880304f891	Linux		10.45.4.17	r5.xlarge		Ademanda			-2209161600
+Talsa	EC2	talsa-hfpe-desarrollo-svdevhfpe	i-07b053791f84529f9	Linux	AmazonLinux2	10.45.0.38	t3.large	0afba4ed-000f-49cd-8cd8-d48e6912ea40	NoUpfront	5/01/2024	4/01/2025	1735948800
+Talsa	EC2	talsa-vpn-producci¢n-openvpn	i-0b9b0f1f57f0b00a6	Linux	Ubuntu18.04	10.45.2.59	t3a.medium		Ademanda			-2209161600
+Talsa	EC2	talsa-nat-desarrollo-nat	i-0145ea035dc6bdf3c	Linux	AmazonLinuxAMI2017.09	10.45.0.196	t3a.micro	062dbb9a-c48c-4986-bf10-f1b40440b912	PartialUpfront	11/03/2022	10/03/2025	1741564800
+Talsa	EC2	talsa-appprd-producci¢n-talappprd02	i-09e763612cabd69c4	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.0.220	m5.xlarge	64248286-84d8-49fc-9dcc-e8430dd24b66	NoUpfront	7/06/2021	6/06/2024	1717632000
+Talsa	EC2	talsa-appprd-producci¢n-talappprd01	i-03aa0ec57ed3dc7e3	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.0.219	m5.xlarge	cd384ba8-5914-4fde-8f6e-3a97c5e33435	NoUpfront	4/04/2024	4/04/2027	1806796800
+Talsa	EC2	talsa-bwp-producci¢n-hfbwpappprd01	i-017088d60e9b07bea	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.0.166	m5.xlarge	abdfd371-e49d-4be9-9cf8-ee8d6f6e828f	NoUpfront	31/05/2021	30/05/2024	1717027200
+Talsa	EC2	talsa-bddprd-produccion-talbddprd02	i-0b02b47383d45a8d0	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.1.22	r5.2xlarge	86867b61-972f-437d-a0cd-b14f06523f00	NoUpfront	31/05/2024	31/05/2027	1811721600
+Talsa	EC2	talsa-bddprd-producci¢n-talbddprd03	i-002016d0cf458bbb5	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.23	r5.2xlarge		NoRenovado			-2209161600
+Talsa	EC2	talsa-appprd-producci¢n-talbddprd06	i-090b19de6cd8beb4a	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.26	r5.2xlarge	379cbea0-d64f-485b-959f-2fee809d9ff1	NoUpfront	5/02/2024	4/02/2025	1738627200
+Talsa	EC2	talsa-bddprd-produccion-talbddprd01	i-04ceb3d2576c13b65	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.1.21	r5.4xlarge	ad2abe18-9ef8-431f-b101-4c257f573a4e	NoUpfront	4/04/2024	4/04/2027	1806796800
+Talsa	EC2	talsa-bddprd-produccion-talbddprd00	i-0a68d573ff4625b85	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.20	r5.4xlarge	452c124f-b842-4a3c-88dd-4e93f959c873	NoUpfront	19/05/2022	18/05/2025	1747526400
+Talsa	EC2	talsa-appprd-producci¢n-talbddprd05	i-077182b1cb6cf50e4	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.25	r5.4xlarge	5f18baee-39ad-4b3b-8750-2c07b680a7dc	NoUpfront	6/10/2023	5/10/2024	1728086400
+Talsa	EC2	talsa-appprd-producci¢n-talappprd03	i-01840720f0b249009	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.0.221	r5.xlarge	4cd69788-f0a6-4487-accf-e313ea0d2b97	NoUpfront	24/08/2021	23/08/2024	1724371200
+Talsa	EC2	talsa-bddprd-producci¢n-talbddprd04	i-0b97f3b248e1ede6e	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.24	r5.xlarge	a80b1d07-932e-4d2b-89b2-cac13adb7284	NoUpfront	4/01/2022	3/01/2025	1735862400
+Talsa	EC2	talsa-bwp-producci¢n-hfbwpbdprd01	i-0be3403f025505694	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.1.60	r5.xlarge	cf17abc5-d628-45b9-8357-f74bb1a709e4	NoUpfront	24/08/2021	23/08/2024	1724371200
+Talsa	EC2	talsa-bwp-producci¢n-hfbwpdevqas01	i-0f085223298cbc15f	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.0.39	r5a.xlarge		Ademanda			-2209161600
+Talsa	EC2	talsa-yapsvr-calidad-yapsvrqas01	i-09f5107f835c34f68	windows		10.45.0.217	r5a.xlarge		Ademanda			-2209161600
+Talsa	EC2	talsa-appprd-producci¢n-talappprd04	i-088f1ec05de7c3871	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.45.0.222	t3.large		Ademanda			-2209161600
+Talsa	EC2	talsa-saprouter-producci¢n-saprouter	i-01fd34bc880811b2e	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.2.108	t3a.xlarge	0af04a36-f988-4499-b813-0e9ffd65f2be	PartialUpfront	11/03/2022	10/03/2025	1741564800
+Talsa	EC2	talsa-yapsvr-desarrollo-yapsvrdev01	i-0ec66815ca847af07	windows	MicrosoftWindowsServer2016Datacenter10.0.14393	10.45.0.218	t3a.xlarge		Ademanda			-2209161600
+TDM	EC2	WebServer	5ba92de0-87d3-4dca-8960-7b6918a572f0	Windows	WindowsServer2019-datacenter-gensecond	172.16.85.36	Standard_B2ms	7bd29b5e-3b7a-4676-84ae-6a5e40654cb4	-	22/09/2022	22/09/2025	1758499200
+TDM	EC2	db-server	80350a05-5cb0-45ef-92f9-4e9dff8b7e53	Windows	sql2019-ws2019standard-gen2	172.16.85.21	Standard_D4s_v5	2515acde-92bd-4143-a569-ce7603d0cd8a	-	22/09/2022	22/09/2025	1758499200
+TECNOFIL	EC2	TCFLSROUTER	3405df81-ded5-4dc5-b14a-1b3cf359e75c	Windows	WindowsServer2019-datacenter-gensecond	192.168.80.4	Standard_B2ms	bbb47a3f-05c2-4ebb-82e6-0ccb915ab96d	-	5/07/2022	5/07/2025	1751673600
+TECNOFIL	EC2	TCFLSAPAGENT	fd5733c1-645a-44c4-8e86-335d6750c036	Windows	WindowsServer2022-datacenter-g2	192.168.80.36	Standard_B8ms	da02f8f2-56f2-40be-bc44-d7fce3842fc2	-	22/05/2023	22/05/2026	1779408000
+TECNOFIL	EC2	SRVS4DEV	be68319e-2b26-4ae4-afb7-260a7df197fb	Linux	sles-15-sp3-basicgen2	192.168.80.5	Standard_E16s_v4	3416e078-3ae7-410f-a664-81852ad18f16	-	5/07/2022	5/07/2025	1751673600
+TECNOFIL	EC2	SRVS4QAS	2f9cc59f-b29d-4838-b899-2cbb4ed8d981	Linux	sles-15-sp3-basicgen2	192.168.80.6	Standard_E16s_v4	3416e078-3ae7-410f-a664-81852ad18f16	-	5/07/2022	5/07/2025	1751673600
+TECNOFIL	EC2	SRVS4PRD	2b4f23a1-1c6f-433d-a891-741fefcdce70	Linux	sles-15-sp3-basicgen2	192.168.80.7	Standard_E32ds_v4	e238b077-94c5-4943-b86a-0d98ed52a747	-	5/07/2022	5/07/2025	1751673600
+TECNOFIL	EC2	SOLMAN	1b3a0ffa-e79a-4ea1-b828-99f9d0117d44	Linux	sles-15-sp3-basicgen2	192.168.80.8	Standard_E4s_v4	6b5146dd-1d1e-4889-ae16-b4a61aaf579e	-	5/07/2022	5/07/2025	1751673600
+TERBOL	EC2	trbsrouter	6cdbbfc0-cee4-493c-a32a-98085f789734	Windows	WindowsServer2019-Datacenter	192.168.0.6	Standard_B2ms	51ba0365-2eea-4343-9713-9316f5ffe273	-	15/11/2021	15/11/2024	1731628800
+TERBOL	EC2	sapprdctg	8fbef756-40e8-45ea-9144-58c08ffb3e70	Linux	sles-15-sp2-basicgen1	192.168.0.5	Standard_E32ds_v4	9736bbf3-a23c-4fc6-bf04-f4973182d90f	-	15/11/2021	15/11/2024	1731628800
+TEXCOPE	EC2	APPSERVER	e9a47dba-d86f-4aad-937e-a80e03212a40	Windows	WindowsServer2016-datacenter-gensecond	192.168.10.5	Standard_D8s_v5	297b7977-e9fd-4c76-a9cb-8633ee4a4906	-	16/01/2023	16/01/2026	1768521600
+TEXCOPE	EC2	RDPSERVER	5bcc8731-8071-4635-8a2c-62e67266c351	Windows	WindowsServer2016-datacenter-gensecond	192.168.10.4	Standard_E16s_v5	23b1b2ad-268b-45c4-a9ab-cf245d6400a8	-	16/01/2023	16/01/2026	1768521600
+TEXCOPE	EC2	HANASERVER	4f2d3597-a8e1-47e0-84aa-78d0c5bb4965	Linux	sles-15-sp3-basicgen2	192.168.10.68	Standard_M32ts	2698ef86-27b7-4955-b2da-ffec146884e0	-	16/01/2023	16/01/2026	1768521600
+Toyota	EC2	toyota-solman-prd-solman	i-0dd48d68108c66c4b	Linux		10.20.0.34	r4.xlarge		Ademanda			-2209161600
+Toyota	EC2	toyota-s/4-qas-s/4hanaqas	i-0cbdb4f640485605c	Linux	SLES15.4	10.20.0.78	r5.16xlarge	628c46e7-757e-4ed0-96fb-29010824ea12	NoUpfront	19/07/2023	18/07/2026	1784332800
+Toyota	EC2	toyota-s/4-prd-s/4hanaprd	i-05cf65bc9625b0971	Linux	SLES15.4	10.20.0.17	r5.16xlarge	bb1231e7-8465-4de0-8ece-b456b997170e	NoUpfront	28/03/2023	27/03/2026	1774569600
+Toyota	EC2	toyota-bw/4-dev-bw/4hanadev	i-07482c676516a3fc9	Linux	SLES12.5	10.20.0.249	r5.4xlarge		NoRenovado			-2209161600
+Toyota	EC2	toyota-s/4-prd-s/4prd_ctg	i-0426a87162d930166	Linux	SLES15.4	10.20.2.123	r5.4xlarge	b41f1d81-0212-4792-999a-2b6ede1ca597	NoUpfront	7/12/2022	6/12/2025	1764979200
+Toyota	EC2	toyota-s/4-dev-s/4hanadev	i-036f381034780ce37	Linux	SLES15.4	10.20.0.88	r5.8xlarge	3692fc91-97be-441c-8837-9736c74ace89	NoUpfront	28/03/2023	27/03/2026	1774569600
+Toyota	EC2	toyota-bw/4-prd-bw/4hanaprd	i-0f94d769262bbf7b6	Linux	SLES12.5	10.20.0.253	r5.8xlarge	5cf28f1d-fdf8-4e68-9de3-1b568e795077	NoUpfront	6/11/2023	5/11/2024	1730764800
+Toyota	EC2	toyota-nat-prd-natinstance	i-0eaa64d01e8c2ae84	Linux	AmazonLinuxAMI2018.03	10.20.1.171	t3a.micro	758753a9-b86f-4ab4-aa26-d21132e190e7	NoUpfront	7/12/2022	6/12/2025	1764979200
+Toyota	EC2	toyota-router-dev-saprouter	i-0017fdc201fc943e7	windows	MicrosoftWindowsServer2022Datacenter10.0.20348	10.20.1.58	t3a.large	bb7d1d35-2aa6-4961-994a-62670041f072	NoUpfront	7/12/2022	6/12/2025	1764979200
+TRANSMERIDIAN	EC2	RDPServer	c8b4b9ce-6e26-4dbf-888d-a5f8373947bd	Windows	WindowsServer2019-datacenter-gensecond	192.168.10.4	Standard_D8s_v5	13ef6c6b-771f-41cf-b54d-4b093ff51a50	-	19/09/2023	19/09/2026	1789776000
+TRANSMERIDIAN	EC2	HANASERVER	fe24778a-c622-4ca1-a067-857097115c1e	Linux	sles-12-sp5-basicgen2	192.168.10.5	Standard_E8ds_v5	4416b17d-ede4-40f3-8106-2f8a2c47dc6c	-	19/09/2023	19/09/2026	1789776000
+TRANSPORTEROMERO	EC2	NoAplica(ServidorOnPremisse)							-			-2209161600
+TRIATHLON	RDS	NoAplica(Sinservidores)							-			-2209161600
+UCSP	EC2	iedvmprd-web	97a01fab-1244-4f0e-b15c-14d7ec765881	Windows	WindowsServer2019-Datacenter-smalldisk	10.0.1.4	Standard_B4ms	d366b768-06ca-4ce9-b3ce-37f38efd2caa	-	25/05/2024	25/05/2025	1748131200
+UCSP	EC2	iedvmprd-sql	fac18697-b308-4cb1-9125-f801b697fae4	Windows		10.0.1.6	Standard_D4as_v4	3cdb4b46-ba37-437f-aa7c-1b884af71040	-	25/05/2024	25/05/2025	1748131200
+UCSP	EC2	iedvmprd-sql2	e5b2cc30-1228-4428-a827-594362694e28	Windows	WindowsServer2019-Datacenter-smalldisk	10.0.1.7	Standard_E2as_v4	b255c9da-d39f-4635-b5dc-4bb6b2086b6e	-	25/05/2024	25/05/2025	1748131200
+UNI	EC2	NoAplica(Sinservidores)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+UNICON	EC2	NoAplica(Cloudflare)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+UNIMAR	EC2	monitor	b113d7f6-2d07-4f68-9d15-af212f6bd01e	Linux	sles-12-sp5-basicgen2	10.30.20.6	Standard_B1ls		Ademanda			-2209161600
+UNIMAR	EC2	saprouter	fb3af93a-52d5-449c-853c-c1cdc26b03f6	Windows	WindowsServer2016-Datacenter	10.30.30.4	Standard_B2ms	dd0f7fd6-ccbc-40b5-ad37-bc93176964b0	-	4/10/2022	4/10/2025	1759536000
+UNIMAR	EC2	WINPFACELE01	5ef5b659-ae10-4546-a5c8-a166dc9e515f	Windows	WindowsServer2016-Datacenter	10.30.20.8	Standard_B2ms	dd0f7fd6-ccbc-40b5-ad37-bc93176964b0	-	4/10/2022	4/10/2025	1759536000
+UNIMAR	EC2	SAP-ERP-DEV	4679c7aa-f8a8-40cd-b0cf-54b032bc5497	Windows	WindowsServer2016-Datacenter	10.30.20.4	Standard_E2ds_v5		Ademanda			-2209161600
+UNIMAR	EC2	SAP-ERP-QAS	f2ab9e42-4260-476a-910c-f155c2b1e2ce	Windows	WindowsServer2016-Datacenter	10.30.20.5	Standard_E2ds_v5		Ademanda			-2209161600
+UNIMAR	EC2	WINPSRVAPP02	d29f10d7-0644-4bd5-b1de-9309ce279307	Windows		10.30.20.9	Standard_E2s_v5		Ademanda			-2209161600
+UNIMAR	EC2	SAP-ERP-PRD	b3c17fe7-0eda-4d5a-8e76-3ff6d44e230b	Windows	WindowsServer2016-Datacenter	10.30.20.7	Standard_E4ds_v5	9671bb7c-ac6c-4e29-9acd-5ae6c9911edc	-	4/10/2022	4/10/2025	1759536000
+UNIMAR	EC2	SRV-MSSQL-PRD01	d9cfb12d-3701-4c97-971c-baa4bcf4ef23	Windows		10.30.20.12	Standard_E4s_v5		Ademanda			-2209161600
+URIBE&SCHWARZKOPF	EC2	NoAplica(Sinservidores)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+USMP	EC2	NoAplica(Sinservidores)	ÿ	ÿ	ÿ	ÿ	ÿ		-			-2209161600
+Vainsa	EC2	erp-prd-vainsa	i-043bee0274ee4efff	Linux	RedHatEnterpriseLinuxServer7.5	10.11.1.99	r5.2xlarge	2ae6ef85-fa5d-45e5-9f4a-af1693291ed5	NoUpfront	17/10/2022	16/10/2025	1760572800
+Vainsa	EC2	erp-dev-vainsa	i-0ad7ef32f529f0951	Linux	RedHatEnterpriseLinuxServer7.5	10.11.1.111	r5.xlarge	0d7f9146-a8b9-4042-aef9-3fc818960f1b	NoUpfront	26/08/2022	25/08/2025	1756080000
+Vainsa	EC2	erp-qas-vainsa	i-0c88ec52b2b8a19de	Linux	RedHatEnterpriseLinuxServer7.5	10.11.1.185	r5.xlarge	fe176a10-4269-40fc-a895-0a7fb905a659	NoUpfront	26/08/2022	25/08/2025	1756080000
+Vainsa	EC2	vainsa-nat	i-09b41a64581f4c225	Linux	AmazonLinuxAMI2018.03	10.11.4.63	t3a.small	663caca0-a0b9-48cf-a215-529ceaaec48d	NoUpfront	26/08/2022	25/08/2025	1756080000
+Vainsa	EC2	vainsa-saprouter	i-0658fd7ece7e35198	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	10.11.4.246	t3a.large	8dccf93a-a1f7-4c30-a302-f10a03038941	NoUpfront	26/08/2022	25/08/2025	1756080000
+Ventcorp	EC2	ventcorp-oms-qas-qas_oms	i-031a657ebb6198689	Linux	CentOSLinux7.9.2009	172.16.1.71	m5.large	14e671b1-df5c-40a8-ad49-3bd097a2d0aa	NoUpfront	3/08/2021	2/08/2024	1722556800
+Ventcorp	EC2	ventcorp-clon-qas	i-0a2c0da05b8ade5c5	Linux		172.16.1.133	m5.large		Ademanda			-2209161600
+Ventcorp	EC2	ventcorp-erp-prd-ventlmerprd-(saperpprd)	i-0df6312d711736321	Linux	SLES12.4	172.16.5.232	r5.2xlarge	142ba5c9-8396-4546-b9b8-4905dd86a4ed	NoUpfront	13/09/2021	12/09/2024	1726099200
+Ventcorp	EC2	ventcorp-prd-sql_oms	i-0833b91be2db8ae76	Linux	CentOSLinux7.9.2009	172.16.10.36	r5.2xlarge	7e9da803-8a5e-4941-9daf-47093a46f0f3	NoUpfront	3/08/2021	2/08/2024	1722556800
+Ventcorp	EC2	ventcorp-erp-dev-saperpdev	i-0ef9ab0a13e34d5c7	Linux	SLES12.5	172.16.2.206	r5.large		Ademanda			-2209161600
+Ventcorp	EC2	ventcorp-pi-dev-sappidev	i-062e74044651aed65	Linux	SLES12.5	172.16.2.133	r5.large		Ademanda			-2209161600
+Ventcorp	EC2	ventcorp-erp-qas-saperpqas	i-01ea27076f1af2f3c	Linux	SLES12.5	172.16.4.136	r5.xlarge	316c0c2a-5eb0-45d8-9790-f4d6e020198f	NoUpfront	6/09/2021	5/09/2024	1725494400
+Ventcorp	EC2	ventcorp-pi-prd-ventlmpiprd	i-0debb43adb9994f5d	Linux	SLES12.4	172.16.5.11	r5.xlarge	9c42c562-f11e-426f-8a75-d60b770980ba	NoUpfront	6/09/2021	5/09/2024	1725494400
+Ventcorp	EC2	ventcorp-solman-prd-sapsolmanprd	i-0f0f50e3aee6d8fed	Linux		172.16.5.46	r5.xlarge		Ademanda			-2209161600
+Ventcorp	EC2	ventcorp-appserver-centos	i-040ca1762852a5426	Linux	CentOSLinux7.9.2009	172.16.1.249	t3.large		Ademanda			-2209161600
+Ventcorp	EC2	ventcorp-oms-prd-frontend_oms	i-0e0fbaec470fa07eb	Linux	CentOSLinux7.9.2009	172.16.1.247	t3.medium	55ba6334-3384-4cd5-9fde-17ab27a79959	NoUpfront	3/08/2021	2/08/2024	1722556800
+Ventcorp	EC2	((ventcorp-wps-prd-vntprdwps_(Proyecto_WordPress_103030))	i-041df4137dfaa5bd8	Linux	Ubuntu23.10	172.16.3.145	t3.medium	26fbd0bd-1816-4650-b862-e38f4efe2be5	NoUpfront	3/08/2021	2/08/2024	1722556800
+Ventcorp	EC2	ventcorp-oms-prd-backend_oms-publicip	i-0fb5db13838f4f009	Linux	CentOSLinux7.9.2009	172.16.1.16	t3.xlarge	e1e7625a-9b3f-49d4-a812-273d8504dba3	NoUpfront	3/08/2021	2/08/2024	1722556800
+Ventcorp	EC2	ventcorp-nat-prd-nat	i-07e8418db837d74e2	Linux	AmazonLinuxAMI2017.09	172.16.1.77	t3a.micro	16979c09-c3f5-4843-ac3e-bd00d54b632b	NoUpfront	7/09/2021	6/09/2024	1725580800
+Ventcorp	EC2	ventcorp-facturacion-prd-facturacion-NEW	i-00b4f70298a312a58	windows	MicrosoftWindowsServer2019Datacenter10.0.17763	172.16.1.217	t3.xlarge	ee70ccc6-9dd4-437b-854e-ddbc7a49ae55	NoUpfront	12/08/2021	11/08/2024	1723334400
+Ventcorp	EC2	ventcorp-router-dev-saprouter	i-0272c24e6eb5d3148	windows		172.16.1.11	t3a.medium	14ef2952-8217-48aa-aba6-4e36d63f87d7	NoUpfront	25/07/2021	24/07/2024	1721779200
+WCAPITAL	EC2	BASTION	6f726be5-f078-47c4-8267-46913ea54948	Windows	WindowsServer2016-Datacenter	10.11.0.6	Standard_B2s	474f7a82-9336-43e0-91e4-7385594af2f4	-	21/11/2023	21/11/2024	1732147200
+WCAPITAL	EC2	srvb1hana	4c395081-6d24-4563-baad-03a6cd42fed2	Linux	SLES12-sp4	10.11.0.5	Standard_E16s_v3	416b0dad-afcf-4d1c-92b7-56dce1c2ddb9	-	21/11/2023	21/11/2024	1732147200
+WCAPITAL	EC2	srvclient	7270a1df-ec99-4bad-a3ac-5165e0fb2d40	Windows	WindowsServer2016-Datacenter	10.11.0.4	Standard_E4s_v3	78c037bb-af0a-4928-b9dc-67abe011aa65	-	21/11/2023	21/11/2024	1732147200
+YOBEL/ENTEL	EC2	NoAplica(ServidorOnPremisse)	ÿ	ÿ	ÿ	ÿ	ÿ		-			
